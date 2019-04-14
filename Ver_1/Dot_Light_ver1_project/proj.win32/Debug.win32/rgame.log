@@ -1,0 +1,94 @@
+﻿빌드 시작: 2018-09-15 오후 4:39:25
+     1>2 노드의 "C:\cocos2d-x-3.2\cocos2d-x-3.2\rgame\proj.win32\rgame.vcxproj" 프로젝트(Build 대상)입니다.
+     1>InitializeBuildStatus:
+         "AlwaysCreate"이(가) 지정되었기 때문에 "Debug.win32\rgame.unsuccessfulbuild"을(를) 만들고 있습니다.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\cocos2d-x-3.2\cocos2d-x-3.2\rgame\cocos2d\cocos\2d\..\..\cocos\audio\include" /I"C:\cocos2d-x-3.2\cocos2d-x-3.2\rgame\cocos2d\cocos\2d\..\..\external" /I"C:\cocos2d-x-3.2\cocos2d-x-3.2\rgame\cocos2d\cocos\2d\..\..\external\chipmunk\include\chipmunk" /I"C:\cocos2d-x-3.2\cocos2d-x-3.2\rgame\cocos2d\cocos\2d\..\..\extensions" /I"C:\cocos2d-x-3.2\cocos2d-x-3.2\rgame\cocos2d\cocos\2d\..\..\cocos\editor-support" /I"C:\cocos2d-x-3.2\cocos2d-x-3.2\rgame\cocos2d\cocos\2d\..\..\cocos" /I"C:\cocos2d-x-3.2\cocos2d-x-3.2\rgame\cocos2d\cocos\2d\..\..\\" /I"C:\cocos2d-x-3.2\cocos2d-x-3.2\rgame\cocos2d\cocos\2d\..\..\external\curl\include\win32" /I..\Classes /I.. /I"C:\cocos2d-x-3.2\cocos2d-x-3.2\rgame\cocos2d\cocos\2d\..\..\cocos" /I"C:\cocos2d-x-3.2\cocos2d-x-3.2\rgame\cocos2d\cocos\2d\..\..\cocos\platform\win32" /I"C:\cocos2d-x-3.2\cocos2d-x-3.2\rgame\cocos2d\cocos\2d\..\..\cocos\platform\desktop" /I"C:\cocos2d-x-3.2\cocos2d-x-3.2\rgame\cocos2d\cocos\2d\..\..\external\glfw3\include\win32" /I"C:\cocos2d-x-3.2\cocos2d-x-3.2\rgame\cocos2d\cocos\2d\..\..\external\win32-specific\gles\include\OGLES" /ZI /nologo /W3 /WX- /MP /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USE_MATH_DEFINES /D GL_GLEXT_PROTOTYPES /D CC_ENABLE_CHIPMUNK_INTEGRATION=1 /D COCOS2D_DEBUG=1 /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _VARIADIC_MAX=10 /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc110.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt ..\Classes\GameMenuScene.cpp
+         GameMenuScene.cpp
+     1>c:\cocos2d-x-3.2\cocos2d-x-3.2\rgame\cocos2d\cocos\base\ccutf8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\cocos2d-x-3.2\cocos2d-x-3.2\rgame\cocos2d\cocos\base\ccutils.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\cocos2d-x-3.2\cocos2d-x-3.2\rgame\cocos2d\cocos\physics\ccphysicsbody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\cocos2d-x-3.2\cocos2d-x-3.2\rgame\cocos2d\cocos\physics\ccphysicsshape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\cocos2d-x-3.2\cocos2d-x-3.2\rgame\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\cocos2d-x-3.2\cocos2d-x-3.2\rgame\classes\gamescene.h(69): warning C4996: 'cocos2d::kmMat4': deprecated로 선언되었습니다.
+                 c:\cocos2d-x-3.2\cocos2d-x-3.2\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(1059) : 'cocos2d::kmMat4' 선언을 참조하십시오.
+     1>c:\cocos2d-x-3.2\cocos2d-x-3.2\rgame\classes\gamescene.h(75): warning C4996: 'cocos2d::Object': deprecated로 선언되었습니다.
+                 c:\cocos2d-x-3.2\cocos2d-x-3.2\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(537) : 'cocos2d::Object' 선언을 참조하십시오.
+     1>c:\cocos2d-x-3.2\cocos2d-x-3.2\rgame\classes\gamescene.h(77): warning C4996: 'cocos2d::kmMat4': deprecated로 선언되었습니다.
+                 c:\cocos2d-x-3.2\cocos2d-x-3.2\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(1059) : 'cocos2d::kmMat4' 선언을 참조하십시오.
+     1>c:\cocos2d-x-3.2\cocos2d-x-3.2\rgame\classes\gamescene.h(77): warning C4996: 'cocos2d::Object': deprecated로 선언되었습니다.
+                 c:\cocos2d-x-3.2\cocos2d-x-3.2\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(537) : 'cocos2d::Object' 선언을 참조하십시오.
+     1>c:\cocos2d-x-3.2\cocos2d-x-3.2\rgame\classes\gamemenuscene.cpp(51): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+                 c:\cocos2d-x-3.2\cocos2d-x-3.2\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(47) : 'cocos2d::ccp' 선언을 참조하십시오.
+     1>c:\cocos2d-x-3.2\cocos2d-x-3.2\rgame\classes\gamemenuscene.cpp(54): warning C4996: 'cocos2d::MenuItemToggle::createWithTarget': deprecated로 선언되었습니다.
+                 c:\cocos2d-x-3.2\cocos2d-x-3.2\rgame\cocos2d\cocos\2d\ccmenuitem.h(476) : 'cocos2d::MenuItemToggle::createWithTarget' 선언을 참조하십시오.
+     1>c:\cocos2d-x-3.2\cocos2d-x-3.2\rgame\classes\gamemenuscene.cpp(55): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+                 c:\cocos2d-x-3.2\cocos2d-x-3.2\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(47) : 'cocos2d::ccp' 선언을 참조하십시오.
+     1>c:\cocos2d-x-3.2\cocos2d-x-3.2\rgame\classes\gamemenuscene.cpp(59): warning C4996: 'cocos2d::MenuItemToggle::createWithTarget': deprecated로 선언되었습니다.
+                 c:\cocos2d-x-3.2\cocos2d-x-3.2\rgame\cocos2d\cocos\2d\ccmenuitem.h(476) : 'cocos2d::MenuItemToggle::createWithTarget' 선언을 참조하십시오.
+     1>c:\cocos2d-x-3.2\cocos2d-x-3.2\rgame\classes\gamemenuscene.cpp(60): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+                 c:\cocos2d-x-3.2\cocos2d-x-3.2\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(47) : 'cocos2d::ccp' 선언을 참조하십시오.
+     1>c:\cocos2d-x-3.2\cocos2d-x-3.2\rgame\classes\gamemenuscene.cpp(69): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다.
+     1>c:\cocos2d-x-3.2\cocos2d-x-3.2\rgame\classes\gamemenuscene.cpp(70): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다.
+     1>c:\cocos2d-x-3.2\cocos2d-x-3.2\rgame\classes\gamemenuscene.cpp(100): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+                 c:\cocos2d-x-3.2\cocos2d-x-3.2\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(47) : 'cocos2d::ccp' 선언을 참조하십시오.
+     1>c:\cocos2d-x-3.2\cocos2d-x-3.2\rgame\classes\gamemenuscene.cpp(111): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+                 c:\cocos2d-x-3.2\cocos2d-x-3.2\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(47) : 'cocos2d::ccp' 선언을 참조하십시오.
+     1>c:\cocos2d-x-3.2\cocos2d-x-3.2\rgame\classes\gamemenuscene.cpp(115): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+                 c:\cocos2d-x-3.2\cocos2d-x-3.2\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(47) : 'cocos2d::ccp' 선언을 참조하십시오.
+     1>c:\cocos2d-x-3.2\cocos2d-x-3.2\rgame\classes\gamemenuscene.cpp(121): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+                 c:\cocos2d-x-3.2\cocos2d-x-3.2\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(47) : 'cocos2d::ccp' 선언을 참조하십시오.
+     1>c:\cocos2d-x-3.2\cocos2d-x-3.2\rgame\classes\gamemenuscene.cpp(129): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+                 c:\cocos2d-x-3.2\cocos2d-x-3.2\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(47) : 'cocos2d::ccp' 선언을 참조하십시오.
+     1>c:\cocos2d-x-3.2\cocos2d-x-3.2\rgame\classes\gamemenuscene.cpp(138): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+                 c:\cocos2d-x-3.2\cocos2d-x-3.2\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(47) : 'cocos2d::ccp' 선언을 참조하십시오.
+     1>c:\cocos2d-x-3.2\cocos2d-x-3.2\rgame\classes\gamemenuscene.cpp(152): warning C4996: 'cocos2d::Director::sharedDirector': deprecated로 선언되었습니다.
+                 c:\cocos2d-x-3.2\cocos2d-x-3.2\rgame\cocos2d\cocos\base\ccdirector.h(139) : 'cocos2d::Director::sharedDirector' 선언을 참조하십시오.
+     1>c:\cocos2d-x-3.2\cocos2d-x-3.2\rgame\classes\gamemenuscene.cpp(155): warning C4800: 'float' : 'true' 또는 'false'로 bool 값을 강제하고 있습니다(성능 경고).
+     1>c:\cocos2d-x-3.2\cocos2d-x-3.2\rgame\classes\gamemenuscene.cpp(155): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': deprecated로 선언되었습니다.
+                 c:\cocos2d-x-3.2\cocos2d-x-3.2\rgame\cocos2d\cocos\base\ccuserdefault.h(168) : 'cocos2d::UserDefault::sharedUserDefault' 선언을 참조하십시오.
+     1>c:\cocos2d-x-3.2\cocos2d-x-3.2\rgame\classes\gamemenuscene.cpp(159): warning C4800: 'float' : 'true' 또는 'false'로 bool 값을 강제하고 있습니다(성능 경고).
+     1>c:\cocos2d-x-3.2\cocos2d-x-3.2\rgame\classes\gamemenuscene.cpp(159): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': deprecated로 선언되었습니다.
+                 c:\cocos2d-x-3.2\cocos2d-x-3.2\rgame\cocos2d\cocos\base\ccuserdefault.h(168) : 'cocos2d::UserDefault::sharedUserDefault' 선언을 참조하십시오.
+     1>c:\cocos2d-x-3.2\cocos2d-x-3.2\rgame\classes\gamemenuscene.cpp(178): warning C4996: 'cocos2d::CallFunc::create': deprecated로 선언되었습니다.
+                 c:\cocos2d-x-3.2\cocos2d-x-3.2\rgame\cocos2d\cocos\2d\ccactioninstant.h(275) : 'cocos2d::CallFunc::create' 선언을 참조하십시오.
+     1>c:\cocos2d-x-3.2\cocos2d-x-3.2\rgame\classes\gamemenuscene.cpp(179): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다.
+     1>c:\cocos2d-x-3.2\cocos2d-x-3.2\rgame\classes\gamemenuscene.cpp(185): warning C4996: 'cocos2d::Director::sharedDirector': deprecated로 선언되었습니다.
+                 c:\cocos2d-x-3.2\cocos2d-x-3.2\rgame\cocos2d\cocos\base\ccdirector.h(139) : 'cocos2d::Director::sharedDirector' 선언을 참조하십시오.
+       ResourceCompile:
+         모든 출력이 최신 상태입니다.
+       PreLinkEvent:
+         if not exist "C:\cocos2d-x-3.2\cocos2d-x-3.2\rgame\proj.win32\Debug.win32\" mkdir "C:\cocos2d-x-3.2\cocos2d-x-3.2\rgame\proj.win32\Debug.win32\"
+         xcopy /Y /Q "C:\cocos2d-x-3.2\cocos2d-x-3.2\rgame\cocos2d\cocos\2d\..\..\external\websockets\prebuilt\win32\*.*" "C:\cocos2d-x-3.2\cocos2d-x-3.2\rgame\proj.win32\Debug.win32\"
+         :VCEnd
+         2개 파일이 복사되었습니다.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\cocos2d-x-3.2\cocos2d-x-3.2\rgame\proj.win32\Debug.win32\rgame.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\cocos2d-x-3.2\cocos2d-x-3.2\rgame\proj.win32\Debug.win32\\" /LIBPATH:"C:\cocos2d-x-3.2\cocos2d-x-3.2\rgame\proj.win32\Debug.win32\\" opengl32.lib glew32.lib libzlib.lib libpng.lib libjpeg.lib libtiff.lib libwebp.lib libiconv.lib glfw3.lib freetype250.lib winmm.lib ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\cocos2d-x-3.2\cocos2d-x-3.2\rgame\proj.win32\Debug.win32\rgame.pdb" /SUBSYSTEM:WINDOWS,"5.01" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\cocos2d-x-3.2\cocos2d-x-3.2\rgame\proj.win32\Debug.win32\rgame.lib" /MACHINE:X86 /SAFESEH Debug.win32\game.res
+         Debug.win32\AppDelegate.obj
+         Debug.win32\data.obj
+         Debug.win32\enemy.obj
+         Debug.win32\GameMenuScene.obj
+         Debug.win32\GameScene.obj
+         "Debug.win32\GB2ShapeCache-x.obj"
+         Debug.win32\loading.obj
+         Debug.win32\mymath.obj
+         Debug.win32\myray.obj
+         Debug.win32\popup.obj
+         Debug.win32\TitleScene.obj
+         Debug.win32\main.obj
+         "C:\cocos2d-x-3.2\cocos2d-x-3.2\rgame\proj.win32\Debug.win32\libcocos2d.lib"
+         "C:\cocos2d-x-3.2\cocos2d-x-3.2\rgame\proj.win32\Debug.win32\libAudio.lib"
+         "C:\cocos2d-x-3.2\cocos2d-x-3.2\rgame\proj.win32\Debug.win32\libchipmunk.lib"
+         "C:\cocos2d-x-3.2\cocos2d-x-3.2\rgame\proj.win32\Debug.win32\libCocosStudio.lib"
+         "C:\cocos2d-x-3.2\cocos2d-x-3.2\rgame\proj.win32\Debug.win32\libGUI.lib"
+         "C:\cocos2d-x-3.2\cocos2d-x-3.2\rgame\proj.win32\Debug.win32\libExtensions.lib"
+         "C:\cocos2d-x-3.2\cocos2d-x-3.2\rgame\proj.win32\Debug.win32\libBox2D.lib"
+         rgame.vcxproj -> C:\cocos2d-x-3.2\cocos2d-x-3.2\rgame\proj.win32\Debug.win32\rgame.exe
+       FinalizeBuildStatus:
+         "Debug.win32\rgame.unsuccessfulbuild" 파일을 삭제하고 있습니다.
+         "Debug.win32\rgame.lastbuildstate"에 연결(touching)하고 있습니다.
+     1>"C:\cocos2d-x-3.2\cocos2d-x-3.2\rgame\proj.win32\rgame.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:34.31

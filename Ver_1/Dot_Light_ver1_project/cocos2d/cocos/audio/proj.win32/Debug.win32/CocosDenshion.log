@@ -1,0 +1,18 @@
+﻿빌드 시작: 2018-09-15 오후 4:38:31
+     1>4 노드의 "C:\cocos2d-x-3.2\cocos2d-x-3.2\rgame\cocos2d\cocos\audio\proj.win32\CocosDenshion.vcxproj" 프로젝트(Build 대상)입니다.
+     1>InitializeBuildStatus:
+         "AlwaysCreate"이(가) 지정되었기 때문에 "Debug.win32\libAudio.unsuccessfulbuild"을(를) 만들고 있습니다.
+       ClCompile:
+         모든 출력이 최신 상태입니다.
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"C:\cocos2d-x-3.2\cocos2d-x-3.2\rgame\proj.win32\Debug.win32\libAudio.lib" /NOLOGO Debug.win32\MciPlayer.obj
+         Debug.win32\SimpleAudioEngine.obj
+         CocosDenshion.vcxproj -> C:\cocos2d-x-3.2\cocos2d-x-3.2\rgame\proj.win32\Debug.win32\libAudio.lib
+       FinalizeBuildStatus:
+         "Debug.win32\libAudio.unsuccessfulbuild" 파일을 삭제하고 있습니다.
+         "Debug.win32\libAudio.lastbuildstate"에 연결(touching)하고 있습니다.
+     1>"C:\cocos2d-x-3.2\cocos2d-x-3.2\rgame\cocos2d\cocos\audio\proj.win32\CocosDenshion.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:05.95
