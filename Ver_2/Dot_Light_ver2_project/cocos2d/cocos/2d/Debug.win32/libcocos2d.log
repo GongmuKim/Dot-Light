@@ -1,0 +1,882 @@
+﻿  AssetsManager.cpp
+  AssetsManagerEx.cpp
+  CCEventAssetsManagerEx.cpp
+  CCEventListenerAssetsManagerEx.cpp
+  Manifest.cpp
+  CCControl.cpp
+  CCControlButton.cpp
+  CCControlColourPicker.cpp
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base/ccUTF8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\..\extensions\assets-manager\CCEventListenerAssetsManagerEx.cpp)
+  CCControlHuePicker.cpp
+  CCControlPotentiometer.cpp
+  CCControlSaturationBrightnessPicker.cpp
+c:\cocos2d-x-3.9\rgame\cocos2d\extensions\gui\cccontrolextension\CCControlPotentiometer.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\..\extensions\GUI\CCControlExtension\CCControlPotentiometer.cpp)
+  CCControlSlider.cpp
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\..\extensions\assets-manager\CCEventListenerAssetsManagerEx.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\..\extensions\assets-manager\CCEventListenerAssetsManagerEx.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\..\extensions\assets-manager\CCEventListenerAssetsManagerEx.cpp)
+  CCControlStepper.cpp
+  CCControlSwitch.cpp
+  CCControlUtils.cpp
+  CCInvocation.cpp
+  CCScrollView.cpp
+  CCTableView.cpp
+  CCTableViewCell.cpp
+  CCParticle3DAffector.cpp
+  CCParticle3DEmitter.cpp
+  CCParticle3DRender.cpp
+  CCParticleSystem3D.cpp
+  CCPUAffector.cpp
+  CCPUAffectorManager.cpp
+  CCPUAffectorTranslator.cpp
+  CCPUAlignAffector.cpp
+  CCPUAlignAffectorTranslator.cpp
+  CCPUBaseCollider.cpp
+  CCPUBaseColliderTranslator.cpp
+  CCPUBaseForceAffector.cpp
+  CCPUBaseForceAffectorTranslator.cpp
+  CCPUBeamRender.cpp
+  CCPUBehaviour.cpp
+  CCPUBehaviourManager.cpp
+  CCPUBehaviourTranslator.cpp
+  CCPUBillboardChain.cpp
+  CCPUBoxCollider.cpp
+  CCPUBoxColliderTranslator.cpp
+  CCPUBoxEmitter.cpp
+  CCPUBoxEmitterTranslator.cpp
+  CCPUCircleEmitter.cpp
+  CCPUCircleEmitterTranslator.cpp
+  CCPUCollisionAvoidanceAffector.cpp
+  CCPUCollisionAvoidanceAffectorTranslator.cpp
+  CCPUColorAffector.cpp
+  CCPUColorAffectorTranslator.cpp
+  CCPUDoAffectorEventHandler.cpp
+  CCPUDoAffectorEventHandlerTranslator.cpp
+  CCPUDoEnableComponentEventHandler.cpp
+  CCPUDoEnableComponentEventHandlerTranslator.cpp
+  CCPUDoExpireEventHandler.cpp
+  CCPUDoExpireEventHandlerTranslator.cpp
+  CCPUDoFreezeEventHandler.cpp
+  CCPUDoFreezeEventHandlerTranslator.cpp
+  CCPUDoPlacementParticleEventHandler.cpp
+  CCPUDoPlacementParticleEventHandlerTranslator.cpp
+  CCPUDoScaleEventHandler.cpp
+  CCPUDoScaleEventHandlerTranslator.cpp
+  CCPUDoStopSystemEventHandler.cpp
+  CCPUDoStopSystemEventHandlerTranslator.cpp
+  CCPUDynamicAttribute.cpp
+  CCPUDynamicAttributeTranslator.cpp
+  CCPUEmitter.cpp
+  CCPUEmitterManager.cpp
+  CCPUEmitterTranslator.cpp
+  CCPUEventHandler.cpp
+  CCPUEventHandlerManager.cpp
+  CCPUEventHandlerTranslator.cpp
+  CCPUFlockCenteringAffector.cpp
+  CCPUFlockCenteringAffectorTranslator.cpp
+  CCPUForceField.cpp
+  CCPUForceFieldAffector.cpp
+  CCPUForceFieldAffectorTranslator.cpp
+  CCPUGeometryRotator.cpp
+  CCPUGeometryRotatorTranslator.cpp
+  CCPUGravityAffector.cpp
+  CCPUGravityAffectorTranslator.cpp
+  CCPUInterParticleCollider.cpp
+  CCPUInterParticleColliderTranslator.cpp
+  CCPUJetAffector.cpp
+  CCPUJetAffectorTranslator.cpp
+  CCPULineAffector.cpp
+  CCPULineAffectorTranslator.cpp
+  CCPULinearForceAffector.cpp
+  CCPULinearForceAffectorTranslator.cpp
+  CCPULineEmitter.cpp
+  CCPULineEmitterTranslator.cpp
+  CCPUListener.cpp
+  CCPUMaterialManager.cpp
+  CCPUMaterialTranslator.cpp
+  CCPUMeshSurfaceEmitter.cpp
+  CCPUMeshSurfaceEmitterTranslator.cpp
+  CCPUNoise.cpp
+  CCPUObserver.cpp
+  CCPUObserverManager.cpp
+  CCPUObserverTranslator.cpp
+  CCPUOnClearObserver.cpp
+  CCPUOnClearObserverTranslator.cpp
+  CCPUOnCollisionObserver.cpp
+  CCPUOnCollisionObserverTranslator.cpp
+  CCPUOnCountObserver.cpp
+  CCPUOnCountObserverTranslator.cpp
+  CCPUOnEmissionObserver.cpp
+  CCPUOnEmissionObserverTranslator.cpp
+  CCPUOnEventFlagObserver.cpp
+  CCPUOnEventFlagObserverTranslator.cpp
+  CCPUOnExpireObserver.cpp
+  CCPUOnExpireObserverTranslator.cpp
+  CCPUOnPositionObserver.cpp
+  CCPUOnPositionObserverTranslator.cpp
+  CCPUOnQuotaObserver.cpp
+  CCPUOnQuotaObserverTranslator.cpp
+  CCPUOnRandomObserver.cpp
+  CCPUOnRandomObserverTranslator.cpp
+  CCPUOnTimeObserver.cpp
+  CCPUOnTimeObserverTranslator.cpp
+  CCPUOnVelocityObserver.cpp
+  CCPUOnVelocityObserverTranslator.cpp
+  CCPUParticleFollower.cpp
+  CCPUParticleFollowerTranslator.cpp
+  CCPUParticleSystem3D.cpp
+  CCPUParticleSystem3DTranslator.cpp
+  CCPUPathFollower.cpp
+  CCPUPathFollowerTranslator.cpp
+  CCPUPlane.cpp
+  CCPUPlaneCollider.cpp
+  CCPUPlaneColliderTranslator.cpp
+  CCPUPointEmitter.cpp
+  CCPUPointEmitterTranslator.cpp
+  CCPUPositionEmitter.cpp
+  CCPUPositionEmitterTranslator.cpp
+  CCPURandomiser.cpp
+  CCPURandomiserTranslator.cpp
+  CCPURender.cpp
+  CCPURendererTranslator.cpp
+  CCPURibbonTrail.cpp
+  CCPURibbonTrailRender.cpp
+  CCPUScaleAffector.cpp
+  CCPUScaleAffectorTranslator.cpp
+  CCPUScaleVelocityAffector.cpp
+  CCPUScaleVelocityAffectorTranslator.cpp
+  CCPUScriptCompiler.cpp
+  CCPUScriptLexer.cpp
+  CCPUScriptParser.cpp
+  CCPUScriptTranslator.cpp
+  CCPUSimpleSpline.cpp
+  CCPUSineForceAffector.cpp
+  CCPUSineForceAffectorTranslator.cpp
+  CCPUSlaveBehaviour.cpp
+  CCPUSlaveBehaviourTranslator.cpp
+  CCPUSlaveEmitter.cpp
+  CCPUSlaveEmitterTranslator.cpp
+  CCPUSphere.cpp
+  CCPUSphereCollider.cpp
+  CCPUSphereColliderTranslator.cpp
+  CCPUSphereSurfaceEmitter.cpp
+  CCPUSphereSurfaceEmitterTranslator.cpp
+  CCPUTechniqueTranslator.cpp
+  CCPUTextureAnimator.cpp
+  CCPUTextureAnimatorTranslator.cpp
+  CCPUTextureRotator.cpp
+  CCPUTextureRotatorTranslator.cpp
+  CCPUTranslateManager.cpp
+  CCPUUtil.cpp
+  CCPUVelocityMatchingAffector.cpp
+  CCPUVelocityMatchingAffectorTranslator.cpp
+  CCPUVertexEmitter.cpp
+  CCPUVortexAffector.cpp
+  CCPUVortexAffectorTranslator.cpp
+  CCPhysicsDebugNode.cpp
+  CCPhysicsSprite.cpp
+  clipper.cpp
+  ConvertUTF.c
+  ConvertUTFWrapper.cpp
+  edtaa3func.cpp
+  flatc.cpp
+  idl_gen_cpp.cpp
+  idl_gen_fbs.cpp
+  idl_gen_general.cpp
+  idl_gen_go.cpp
+  idl_gen_text.cpp
+  idl_parser.cpp
+  shapes.cc
+  advancing_front.cc
+  cdt.cc
+  sweep.cc
+  sweep_context.cc
+  tinyxml2.cpp
+  ioapi_mem.cpp
+  ioapi.cpp
+  unzip.cpp
+  xxhash.c
+  CCAABB.cpp
+  CCAnimate3D.cpp
+..\..\external\xxhash\xxhash.c(312): warning C4804: '/': 연산에 'bool' 형식을 사용하는 것은 안전하지 않습니다.
+  CCAnimation3D.cpp
+  CCAttachNode.cpp
+  CCBillBoard.cpp
+  CCBundle3D.cpp
+  CCBundleReader.cpp
+  CCFrustum.cpp
+  CCMesh.cpp
+  CCMeshSkin.cpp
+  CCMeshVertexIndexData.cpp
+  CCMotionStreak3D.cpp
+  CCOBB.cpp
+  CCObjLoader.cpp
+  CCPlane.cpp
+  CCRay.cpp
+  CCSkeleton3D.cpp
+  CCSkybox.cpp
+  CCSprite3D.cpp
+  CCSprite3DMaterial.cpp
+  CCTerrain.cpp
+  AudioEngine.cpp
+  AudioCache.cpp
+  AudioEngine-win32.cpp
+  AudioPlayer.cpp
+..\3d\CCSprite3D.cpp(740): warning C4804: '>': 연산에 'bool' 형식을 사용하는 것은 안전하지 않습니다.
+  MciPlayer.cpp
+  SimpleAudioEngine.cpp
+  CCAllocatorDiagnostics.cpp
+  CCAllocatorGlobal.cpp
+  CCAllocatorGlobalNewDelete.cpp
+  atitc.cpp
+  base64.cpp
+  CCAsyncTaskPool.cpp
+  CCAutoreleasePool.cpp
+  ccCArray.cpp
+  CCConfiguration.cpp
+  CCConsole.cpp
+  CCData.cpp
+  CCDataVisitor.cpp
+  CCDirector.cpp
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base/ccUTF8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\audio\win32\SimpleAudioEngine.cpp)
+  CCEvent.cpp
+  CCEventAcceleration.cpp
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\audio\win32\SimpleAudioEngine.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\audio\win32\SimpleAudioEngine.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\audio\win32\SimpleAudioEngine.cpp)
+..\base\CCConsole.cpp(393): warning C4477: 'fprintf' : 서식 문자열 '%s'에 'char *' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'WCHAR *'입니다.
+  ..\base\CCConsole.cpp(393): note: 서식 문자열에서 '%ls'을(를) 사용하는 것이 좋습니다.
+  ..\base\CCConsole.cpp(393): note: 서식 문자열에서 '%lls'을(를) 사용하는 것이 좋습니다.
+  ..\base\CCConsole.cpp(393): note: 서식 문자열에서 '%Ls'을(를) 사용하는 것이 좋습니다.
+  ..\base\CCConsole.cpp(393): note: 서식 문자열에서 '%ws'을(를) 사용하는 것이 좋습니다.
+  CCEventCustom.cpp
+  CCEventDispatcher.cpp
+  CCEventFocus.cpp
+  CCEventKeyboard.cpp
+  CCEventListener.cpp
+  CCEventListenerAcceleration.cpp
+  CCEventListenerCustom.cpp
+  CCEventListenerFocus.cpp
+  CCEventListenerKeyboard.cpp
+  CCEventListenerMouse.cpp
+  CCEventListenerTouch.cpp
+  CCEventMouse.cpp
+  CCEventTouch.cpp
+  ccFPSImages.c
+  CCIMEDispatcher.cpp
+  CCNinePatchImageParser.cpp
+  CCNS.cpp
+  CCProfiling.cpp
+  CCProperties.cpp
+  ccRandom.cpp
+  CCRef.cpp
+  CCScheduler.cpp
+  CCScriptSupport.cpp
+  CCTouch.cpp
+  ccTypes.cpp
+  CCUserDefault.cpp
+C:\cocos2d-x-3.9\rgame\cocos2d\cocos\base/ccUTF8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\base\CCProperties.cpp)
+  ccUTF8.cpp
+C:\cocos2d-x-3.9\rgame\cocos2d\cocos\base/ccUTF8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\base\ccUTF8.cpp)
+  ccUtils.cpp
+  CCValue.cpp
+..\base\ccUTF8.cpp(275): warning C4996: 'cocos2d::cc_wcslen': deprecated로 선언되었습니다.
+  ..\base\ccUTF8.cpp(219): note: 'cocos2d::cc_wcslen' 선언을 참조하십시오.
+..\base\ccUTF8.cpp(318): warning C4996: 'cocos2d::cc_wcslen': deprecated로 선언되었습니다.
+  ..\base\ccUTF8.cpp(219): note: 'cocos2d::cc_wcslen' 선언을 참조하십시오.
+  etc1.cpp
+  pvr.cpp
+  ObjectFactory.cpp
+  s3tc.cpp
+  TGAlib.cpp
+  ZipUtils.cpp
+  cocos2d.cpp
+  CCArray.cpp
+  CCDeprecated.cpp
+  CCDictionary.cpp
+  CCNotificationCenter.cpp
+  CCSet.cpp
+  CCString.cpp
+  CCBAnimationManager.cpp
+  CCBFileLoader.cpp
+  CCBKeyframe.cpp
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base/ccUTF8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\deprecated\CCDeprecated.cpp)
+  CCBReader.cpp
+  CCBSequence.cpp
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\deprecated\CCDeprecated.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\deprecated\CCDeprecated.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\deprecated\CCDeprecated.cpp)
+  CCBSequenceProperty.cpp
+  CCControlButtonLoader.cpp
+  CCControlLoader.cpp
+  CCLabelBMFontLoader.cpp
+  CCLabelTTFLoader.cpp
+  CCLayerColorLoader.cpp
+  CCLayerGradientLoader.cpp
+  CCLayerLoader.cpp
+  CCMenuItemImageLoader.cpp
+  CCMenuItemLoader.cpp
+  CCNode+CCBRelativePositioning.cpp
+  CCNodeLoader.cpp
+  CCNodeLoaderLibrary.cpp
+  CCParticleSystemQuadLoader.cpp
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base/ccUTF8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocosbuilder\CCNodeLoader.cpp)
+  CCScale9SpriteLoader.cpp
+  CCScrollViewLoader.cpp
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocosbuilder\CCNodeLoader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocosbuilder\CCNodeLoader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocosbuilder\CCNodeLoader.cpp)
+  CCSpriteLoader.cpp
+  CCActionTimeline.cpp
+  CCActionTimelineCache.cpp
+  CCActionTimelineNode.cpp
+  CCBoneNode.cpp
+  CCFrame.cpp
+  CCSkeletonNode.cpp
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base/ccUTF8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\ActionTimeline\CCActionTimelineCache.cpp)
+  CCSkinNode.cpp
+  CCTimeLine.cpp
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base/ccUTF8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\ActionTimeline\CCActionTimelineNode.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\ActionTimeline\CCActionTimelineCache.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\ActionTimeline\CCActionTimelineCache.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\ActionTimeline\CCActionTimelineCache.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\ActionTimeline\CCActionTimelineNode.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\ActionTimeline\CCActionTimelineNode.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\ActionTimeline\CCActionTimelineNode.cpp)
+  CSLoader.cpp
+  CCActionFrame.cpp
+  CCActionFrameEasing.cpp
+  CCActionManagerEx.cpp
+  CCActionNode.cpp
+  CCActionObject.cpp
+  CCArmature.cpp
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base/ccUTF8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\ActionTimeline\CSLoader.cpp)
+C:\cocos2d-x-3.9\rgame\cocos2d\cocos\ui/UIHelper.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\CCActionNode.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\ActionTimeline\CSLoader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\ActionTimeline\CSLoader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\ActionTimeline\CSLoader.cpp)
+  CCArmatureAnimation.cpp
+C:\cocos2d-x-3.9\rgame\cocos2d\cocos\ui/UIHelper.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\ActionTimeline\CSLoader.cpp)
+  CCArmatureDataManager.cpp
+  CCArmatureDefine.cpp
+  CCBatchNode.cpp
+  CCBone.cpp
+  CCColliderDetector.cpp
+  CCComAttribute.cpp
+  CCComAudio.cpp
+  CCComController.cpp
+  CCComRender.cpp
+  CCDataReaderHelper.cpp
+  CCDatas.cpp
+  CCDecorativeDisplay.cpp
+  CCDisplayFactory.cpp
+  CCDisplayManager.cpp
+  CCInputDelegate.cpp
+..\editor-support\cocostudio\CCDataReaderHelper.cpp(309): warning C4996: 'cocos2d::FileUtils::getFileData': deprecated로 선언되었습니다.
+  C:\cocos2d-x-3.9\rgame\cocos2d\cocos\platform/CCFileUtils.h(111): note: 'cocos2d::FileUtils::getFileData' 선언을 참조하십시오.
+..\editor-support\cocostudio\CCDataReaderHelper.cpp(422): warning C4996: 'cocos2d::FileUtils::getFileData': deprecated로 선언되었습니다.
+  C:\cocos2d-x-3.9\rgame\cocos2d\cocos\platform/CCFileUtils.h(111): note: 'cocos2d::FileUtils::getFileData' 선언을 참조하십시오.
+  CCComExtensionData.cpp
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base/ccUTF8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\CCComRender.cpp)
+  CCProcessBase.cpp
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\CCComRender.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\CCComRender.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\CCComRender.cpp)
+  CCSGUIReader.cpp
+  CCSkin.cpp
+  CCSpriteFrameCacheHelper.cpp
+  CCSSceneReader.cpp
+  CCTransformHelp.cpp
+  CCTween.cpp
+  CCUtilMath.cpp
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base/ccUTF8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\CCSGUIReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\CCSGUIReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\CCSGUIReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\CCSGUIReader.cpp)
+  CocoLoader.cpp
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base/ccUTF8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\CCSSceneReader.cpp)
+  CocoStudio.cpp
+C:\cocos2d-x-3.9\rgame\cocos2d\cocos\ui/UIHelper.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\CCSGUIReader.cpp)
+  DictionaryHelper.cpp
+  FlatBuffersSerialize.cpp
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\CCSSceneReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\CCSSceneReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\CCSSceneReader.cpp)
+  TriggerBase.cpp
+C:\cocos2d-x-3.9\rgame\cocos2d\cocos\ui/UIHelper.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\CCSSceneReader.cpp)
+  TriggerMng.cpp
+  TriggerObj.cpp
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base/ccUTF8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\CocoStudio.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base/ccUTF8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\FlatBuffersSerialize.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\CocoStudio.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\CocoStudio.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\CocoStudio.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base/ccUTF8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\TriggerBase.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\FlatBuffersSerialize.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\FlatBuffersSerialize.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\FlatBuffersSerialize.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\TriggerBase.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\TriggerBase.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\TriggerBase.cpp)
+C:\cocos2d-x-3.9\rgame\cocos2d\cocos\ui/UIHelper.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\FlatBuffersSerialize.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base/ccUTF8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\TriggerMng.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base/ccUTF8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\TriggerObj.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\TriggerMng.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\TriggerMng.cpp)
+  WidgetCallBackHandlerProtocol.cpp
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\TriggerMng.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\TriggerObj.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\TriggerObj.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\TriggerObj.cpp)
+  ArmatureNodeReader.cpp
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base/ccUTF8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\ArmatureNodeReader\ArmatureNodeReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base/ccUTF8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetCallBackHandlerProtocol.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\ArmatureNodeReader\ArmatureNodeReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\ArmatureNodeReader\ArmatureNodeReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\ArmatureNodeReader\ArmatureNodeReader.cpp)
+  ButtonReader.cpp
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetCallBackHandlerProtocol.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetCallBackHandlerProtocol.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetCallBackHandlerProtocol.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base/ccUTF8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\ButtonReader\ButtonReader.cpp)
+  CheckBoxReader.cpp
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\ButtonReader\ButtonReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\ButtonReader\ButtonReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\ButtonReader\ButtonReader.cpp)
+  ComAudioReader.cpp
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base/ccUTF8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\CheckBoxReader\CheckBoxReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\CheckBoxReader\CheckBoxReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\CheckBoxReader\CheckBoxReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\CheckBoxReader\CheckBoxReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base/ccUTF8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\ComAudioReader\ComAudioReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\ComAudioReader\ComAudioReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\ComAudioReader\ComAudioReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\ComAudioReader\ComAudioReader.cpp)
+  GameMapReader.cpp
+  GameNode3DReader.cpp
+  ImageViewReader.cpp
+  LayoutReader.cpp
+  Light3DReader.cpp
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base/ccUTF8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\ImageViewReader\ImageViewReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base/ccUTF8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\GameMapReader\GameMapReader.cpp)
+  ListViewReader.cpp
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\ImageViewReader\ImageViewReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\ImageViewReader\ImageViewReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base/ccUTF8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\GameNode3DReader\GameNode3DReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\ImageViewReader\ImageViewReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base/ccUTF8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\LayoutReader\LayoutReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base/ccUTF8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\Light3DReader\Light3DReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\GameMapReader\GameMapReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\GameMapReader\GameMapReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\GameMapReader\GameMapReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\GameNode3DReader\GameNode3DReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\GameNode3DReader\GameNode3DReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\LayoutReader\LayoutReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\LayoutReader\LayoutReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\GameNode3DReader\GameNode3DReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\Light3DReader\Light3DReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\Light3DReader\Light3DReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\LayoutReader\LayoutReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\Light3DReader\Light3DReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base/ccUTF8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\ListViewReader\ListViewReader.cpp)
+  LoadingBarReader.cpp
+..\editor-support\cocostudio\WidgetReader\Light3DReader\Light3DReader.cpp(163): warning C4800: 'uint8_t': 'true' 또는 'false'로 bool 값을 강제하고 있습니다(성능 경고).
+  NodeReaderDefine.cpp
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\ListViewReader\ListViewReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\ListViewReader\ListViewReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\ListViewReader\ListViewReader.cpp)
+  NodeReaderProtocol.cpp
+  NodeReader.cpp
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base/ccUTF8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\LoadingBarReader\LoadingBarReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\LoadingBarReader\LoadingBarReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\LoadingBarReader\LoadingBarReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\LoadingBarReader\LoadingBarReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base/ccUTF8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\NodeReader\NodeReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\NodeReader\NodeReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\NodeReader\NodeReader.cpp)
+  PageViewReader.cpp
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\NodeReader\NodeReader.cpp)
+  ParticleReader.cpp
+  ProjectNodeReader.cpp
+  ScrollViewReader.cpp
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base/ccUTF8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\PageViewReader\PageViewReader.cpp)
+  SingleNodeReader.cpp
+  BoneNodeReader.cpp
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\PageViewReader\PageViewReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\PageViewReader\PageViewReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\PageViewReader\PageViewReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base/ccUTF8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\ParticleReader\ParticleReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base/ccUTF8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\ProjectNodeReader\ProjectNodeReader.cpp)
+  SkeletonNodeReader.cpp
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base/ccUTF8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\SkeletonReader\BoneNodeReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base/ccUTF8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\ScrollViewReader\ScrollViewReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\ParticleReader\ParticleReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\ParticleReader\ParticleReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base/ccUTF8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\SingleNodeReader\SingleNodeReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\ParticleReader\ParticleReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\SkeletonReader\BoneNodeReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\SkeletonReader\BoneNodeReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\SkeletonReader\BoneNodeReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\ProjectNodeReader\ProjectNodeReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\ProjectNodeReader\ProjectNodeReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\ProjectNodeReader\ProjectNodeReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\ScrollViewReader\ScrollViewReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\ScrollViewReader\ScrollViewReader.cpp)
+  SliderReader.cpp
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\ScrollViewReader\ScrollViewReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\SingleNodeReader\SingleNodeReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\SingleNodeReader\SingleNodeReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\SingleNodeReader\SingleNodeReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base/ccUTF8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\SkeletonReader\SkeletonNodeReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\SkeletonReader\SkeletonNodeReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\SkeletonReader\SkeletonNodeReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\SkeletonReader\SkeletonNodeReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base/ccUTF8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\SliderReader\SliderReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\SliderReader\SliderReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\SliderReader\SliderReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\SliderReader\SliderReader.cpp)
+  SpriteReader.cpp
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base/ccUTF8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\SpriteReader\SpriteReader.cpp)
+  TextAtlasReader.cpp
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\SpriteReader\SpriteReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\SpriteReader\SpriteReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\SpriteReader\SpriteReader.cpp)
+  TextBMFontReader.cpp
+  TextFieldReader.cpp
+  TextReader.cpp
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base/ccUTF8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\TextAtlasReader\TextAtlasReader.cpp)
+  Node3DReader.cpp
+  Sprite3DReader.cpp
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\TextAtlasReader\TextAtlasReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\TextAtlasReader\TextAtlasReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\TextAtlasReader\TextAtlasReader.cpp)
+  UserCameraReader.cpp
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base/ccUTF8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\TextReader\TextReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base/ccUTF8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\TextBMFontReader\TextBMFontReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base/ccUTF8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\TextFieldReader\TextFieldReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\TextReader\TextReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\TextReader\TextReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\TextReader\TextReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\TextBMFontReader\TextBMFontReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\TextBMFontReader\TextBMFontReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base/ccUTF8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\Node3DReader\Node3DReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\TextBMFontReader\TextBMFontReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base/ccUTF8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\Sprite3DReader\Sprite3DReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\TextFieldReader\TextFieldReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\TextFieldReader\TextFieldReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\TextFieldReader\TextFieldReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base/ccUTF8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\UserCameraReader\UserCameraReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\Node3DReader\Node3DReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\Node3DReader\Node3DReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\Node3DReader\Node3DReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\Sprite3DReader\Sprite3DReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\Sprite3DReader\Sprite3DReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\UserCameraReader\UserCameraReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\UserCameraReader\UserCameraReader.cpp)
+  Particle3DReader.cpp
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\Sprite3DReader\Sprite3DReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\UserCameraReader\UserCameraReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base/ccUTF8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\Particle3DReader\Particle3DReader.cpp)
+  WidgetReader.cpp
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\Particle3DReader\Particle3DReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\Particle3DReader\Particle3DReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\Particle3DReader\Particle3DReader.cpp)
+  CCAffineTransform.cpp
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base/ccUTF8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\WidgetReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\WidgetReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\WidgetReader.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\editor-support\cocostudio\WidgetReader\WidgetReader.cpp)
+  CCGeometry.cpp
+  CCVertex.cpp
+  Mat4.cpp
+  MathUtil.cpp
+  Quaternion.cpp
+  TransformUtils.cpp
+  Vec2.cpp
+  Vec3.cpp
+  Vec4.cpp
+  CCNavMesh.cpp
+  CCNavMeshAgent.cpp
+  CCNavMeshDebugDraw.cpp
+  CCNavMeshObstacle.cpp
+  CCNavMeshUtils.cpp
+  CCDownloader-curl.cpp
+  CCDownloader.cpp
+  HttpClient.cpp
+  SocketIO.cpp
+  WebSocket.cpp
+C:\cocos2d-x-3.9\rgame\cocos2d\cocos\network/HttpRequest.h(245): warning C4996: 'cocos2d::network::HttpRequest::setResponseCallback': deprecated로 선언되었습니다. (소스 파일 컴파일 중 ..\network\HttpClient.cpp)
+  C:\cocos2d-x-3.9\rgame\cocos2d\cocos\network/HttpRequest.h(255): note: 'cocos2d::network::HttpRequest::setResponseCallback' 선언을 참조하십시오. (소스 파일 컴파일 중 ..\network\HttpClient.cpp)
+  CCPhysics3D.cpp
+  CCPhysics3DComponent.cpp
+  CCPhysics3DConstraint.cpp
+C:\cocos2d-x-3.9\rgame\cocos2d\cocos\network/HttpRequest.h(245): warning C4996: 'cocos2d::network::HttpRequest::setResponseCallback': deprecated로 선언되었습니다. (소스 파일 컴파일 중 ..\network\SocketIO.cpp)
+  C:\cocos2d-x-3.9\rgame\cocos2d\cocos\network/HttpRequest.h(255): note: 'cocos2d::network::HttpRequest::setResponseCallback' 선언을 참조하십시오. (소스 파일 컴파일 중 ..\network\SocketIO.cpp)
+  CCPhysics3DDebugDrawer.cpp
+  CCPhysics3DObject.cpp
+  CCPhysics3DShape.cpp
+  CCPhysics3DWorld.cpp
+  CCPhysicsSprite3D.cpp
+c:\cocos2d-x-3.9\rgame\cocos2d\external\bullet\bulletcollision\broadphasecollision\btDbvtBroadphase.h(62): warning C4099: 'btDbvtBroadphase': 처음에는 'class'을(를) 사용하여 형식 이름을 표시했는데 이제는 'struct'을(를) 사용하여 표시합니다. (소스 파일 컴파일 중 ..\physics3d\CCPhysics3DDebugDrawer.cpp)
+  c:\cocos2d-x-3.9\rgame\cocos2d\external\bullet\bulletcollision\broadphasecollision\btDbvtBroadphase.h(62): note: 'btDbvtBroadphase' 선언을 참조하십시오. (소스 파일 컴파일 중 ..\physics3d\CCPhysics3DDebugDrawer.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\external\bullet\bulletcollision\broadphasecollision\btDbvtBroadphase.h(62): warning C4099: 'btDbvtBroadphase': 처음에는 'class'을(를) 사용하여 형식 이름을 표시했는데 이제는 'struct'을(를) 사용하여 표시합니다. (소스 파일 컴파일 중 ..\physics3d\CCPhysics3DConstraint.cpp)
+  c:\cocos2d-x-3.9\rgame\cocos2d\external\bullet\bulletcollision\broadphasecollision\btDbvtBroadphase.h(62): note: 'btDbvtBroadphase' 선언을 참조하십시오. (소스 파일 컴파일 중 ..\physics3d\CCPhysics3DConstraint.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\external\bullet\bulletcollision\broadphasecollision\btDbvtBroadphase.h(62): warning C4099: 'btDbvtBroadphase': 처음에는 'class'을(를) 사용하여 형식 이름을 표시했는데 이제는 'struct'을(를) 사용하여 표시합니다. (소스 파일 컴파일 중 ..\physics3d\CCPhysics3D.cpp)
+  c:\cocos2d-x-3.9\rgame\cocos2d\external\bullet\bulletcollision\broadphasecollision\btDbvtBroadphase.h(62): note: 'btDbvtBroadphase' 선언을 참조하십시오. (소스 파일 컴파일 중 ..\physics3d\CCPhysics3D.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\external\bullet\bulletcollision\broadphasecollision\btDbvtBroadphase.h(62): warning C4099: 'btDbvtBroadphase': 처음에는 'class'을(를) 사용하여 형식 이름을 표시했는데 이제는 'struct'을(를) 사용하여 표시합니다. (소스 파일 컴파일 중 ..\physics3d\CCPhysics3DComponent.cpp)
+  c:\cocos2d-x-3.9\rgame\cocos2d\external\bullet\bulletcollision\broadphasecollision\btDbvtBroadphase.h(62): note: 'btDbvtBroadphase' 선언을 참조하십시오. (소스 파일 컴파일 중 ..\physics3d\CCPhysics3DComponent.cpp)
+..\physics3d\CCPhysics3DComponent.cpp(103): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\cocos2d-x-3.9\rgame\cocos2d\external\bullet\bulletcollision\broadphasecollision\btDbvtBroadphase.h(62): warning C4099: 'btDbvtBroadphase': 처음에는 'class'을(를) 사용하여 형식 이름을 표시했는데 이제는 'struct'을(를) 사용하여 표시합니다. (소스 파일 컴파일 중 ..\physics3d\CCPhysics3DObject.cpp)
+  c:\cocos2d-x-3.9\rgame\cocos2d\external\bullet\bulletcollision\broadphasecollision\btDbvtBroadphase.h(62): note: 'btDbvtBroadphase' 선언을 참조하십시오. (소스 파일 컴파일 중 ..\physics3d\CCPhysics3DObject.cpp)
+C:\cocos2d-x-3.9\rgame\cocos2d\cocos\base/ccUTF8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\physics3d\CCPhysics3DObject.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\external\bullet\bulletcollision\broadphasecollision\btDbvtBroadphase.h(62): warning C4099: 'btDbvtBroadphase': 처음에는 'class'을(를) 사용하여 형식 이름을 표시했는데 이제는 'struct'을(를) 사용하여 표시합니다. (소스 파일 컴파일 중 ..\physics3d\CCPhysics3DWorld.cpp)
+  c:\cocos2d-x-3.9\rgame\cocos2d\external\bullet\bulletcollision\broadphasecollision\btDbvtBroadphase.h(62): note: 'btDbvtBroadphase' 선언을 참조하십시오. (소스 파일 컴파일 중 ..\physics3d\CCPhysics3DWorld.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\external\bullet\bulletcollision\broadphasecollision\btDbvtBroadphase.h(62): warning C4099: 'btDbvtBroadphase': 처음에는 'class'을(를) 사용하여 형식 이름을 표시했는데 이제는 'struct'을(를) 사용하여 표시합니다. (소스 파일 컴파일 중 ..\physics3d\CCPhysicsSprite3D.cpp)
+  c:\cocos2d-x-3.9\rgame\cocos2d\external\bullet\bulletcollision\broadphasecollision\btDbvtBroadphase.h(62): note: 'btDbvtBroadphase' 선언을 참조하십시오. (소스 파일 컴파일 중 ..\physics3d\CCPhysicsSprite3D.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\external\bullet\bulletcollision\broadphasecollision\btDbvtBroadphase.h(62): warning C4099: 'btDbvtBroadphase': 처음에는 'class'을(를) 사용하여 형식 이름을 표시했는데 이제는 'struct'을(를) 사용하여 표시합니다. (소스 파일 컴파일 중 ..\physics3d\CCPhysics3DShape.cpp)
+  c:\cocos2d-x-3.9\rgame\cocos2d\external\bullet\bulletcollision\broadphasecollision\btDbvtBroadphase.h(62): note: 'btDbvtBroadphase' 선언을 참조하십시오. (소스 파일 컴파일 중 ..\physics3d\CCPhysics3DShape.cpp)
+  CCPhysicsBody.cpp
+C:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\physics\CCPhysicsBody.cpp)
+  CCPhysicsContact.cpp
+  CCPhysicsJoint.cpp
+  CCPhysicsShape.cpp
+C:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\physics\CCPhysicsShape.cpp)
+  CCPhysicsWorld.cpp
+  CCFileUtils.cpp
+  CCGLView.cpp
+C:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\physics\CCPhysicsBody.cpp)
+  CCImage.cpp
+C:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\physics\CCPhysicsWorld.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics\CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\physics\CCPhysicsJoint.cpp)
+C:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\physics\CCPhysicsWorld.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics\CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\physics\CCPhysicsContact.cpp)
+C:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\physics\CCPhysicsJoint.cpp)
+C:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\physics\CCPhysicsContact.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics\CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\physics\CCPhysicsShape.cpp)
+C:\cocos2d-x-3.9\rgame\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\platform\CCFileUtils.cpp)
+  CCSAXParser.cpp
+..\platform\CCSAXParser.cpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\cocos2d-x-3.9\rgame\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\platform\CCSAXParser.cpp)
+  CCThread.cpp
+  CCGLViewImpl-desktop.cpp
+  CCApplication-win32.cpp
+  CCCommon-win32.cpp
+  CCDevice-win32.cpp
+  CCFileUtils-win32.cpp
+  CCStdC-win32.cpp
+  CCBatchCommand.cpp
+  CCCustomCommand.cpp
+  CCFrameBuffer.cpp
+C:\cocos2d-x-3.9\rgame\cocos2d\cocos\base/ccUTF8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\platform\desktop\CCGLViewImpl-desktop.cpp)
+  CCGLProgram.cpp
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\platform\win32\CCFileUtils-win32.h(119): warning C4996: 'cocos2d::FileUtils::getFileData': deprecated로 선언되었습니다. (소스 파일 컴파일 중 ..\platform\win32\CCFileUtils-win32.cpp)
+  C:\cocos2d-x-3.9\rgame\cocos2d\cocos\platform/CCFileUtils.h(111): note: 'cocos2d::FileUtils::getFileData' 선언을 참조하십시오. (소스 파일 컴파일 중 ..\platform\win32\CCFileUtils-win32.cpp)
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\include\Shlobj.h(1151): warning C4091: 'typedef ': 변수를 선언하지 않으면 'tagGPFIDL_FLAGS' 왼쪽은 무시됩니다. (소스 파일 컴파일 중 ..\platform\win32\CCFileUtils-win32.cpp)
+  CCGLProgramCache.cpp
+  CCGLProgramState.cpp
+  CCGLProgramStateCache.cpp
+  ccGLStateCache.cpp
+  CCGroupCommand.cpp
+  CCMaterial.cpp
+  CCMeshCommand.cpp
+  CCPass.cpp
+  CCPrimitive.cpp
+  CCPrimitiveCommand.cpp
+  CCQuadCommand.cpp
+  CCRenderCommand.cpp
+  CCRenderer.cpp
+  CCRenderState.cpp
+  ccShaders.cpp
+  CCTechnique.cpp
+  CCTexture2D.cpp
+  CCTextureAtlas.cpp
+  CCTextureCache.cpp
+  CCTextureCube.cpp
+  CCTrianglesCommand.cpp
+  CCVertexAttribBinding.cpp
+  CCVertexIndexBuffer.cpp
+  CCVertexIndexData.cpp
+  LocalStorage.cpp
+  CocosGUI.cpp
+  UIButton.cpp
+  UIAbstractCheckButton.cpp
+  UICheckBox.cpp
+C:\cocos2d-x-3.9\rgame\cocos2d\cocos\ui/UIHelper.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\ui\CocosGUI.cpp)
+C:\cocos2d-x-3.9\rgame\cocos2d\cocos\ui/UIHelper.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\ui\UIButton.cpp)
+  UIRadioButton.cpp
+  UIDeprecated.cpp
+  UIEditBox.cpp
+  UIEditBoxImpl-win32.cpp
+  UIHBox.cpp
+  UIHelper.cpp
+C:\cocos2d-x-3.9\rgame\cocos2d\cocos\ui/UIHelper.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\ui\UIHelper.cpp)
+  UIImageView.cpp
+  UILayout.cpp
+  UILayoutComponent.cpp
+C:\cocos2d-x-3.9\rgame\cocos2d\cocos\ui/UIHelper.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\ui\UIImageView.cpp)
+  UILayoutManager.cpp
+C:\cocos2d-x-3.9\rgame\cocos2d\cocos\base/ccUTF8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\ui\UIEditBox\UIEditBoxImpl-win32.cpp)
+..\ui\UIEditBox\UIEditBoxImpl-win32.cpp(261): warning C4302: '형식 캐스팅': 'LPCSTR'에서 'WORD'(으)로 잘립니다.
+  UILayoutParameter.cpp
+C:\cocos2d-x-3.9\rgame\cocos2d\cocos\ui/UIHelper.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\ui\UILayout.cpp)
+  UIListView.cpp
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\ui\UIHelper.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\ui\UILayoutComponent.cpp)
+  UILoadingBar.cpp
+  UIPageView.cpp
+  UIRelativeBox.cpp
+C:\cocos2d-x-3.9\rgame\cocos2d\cocos\ui/UIHelper.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\ui\UIListView.cpp)
+  UIRichText.cpp
+  UIScale9Sprite.cpp
+C:\cocos2d-x-3.9\rgame\cocos2d\cocos\ui/UIHelper.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\ui\UILoadingBar.cpp)
+  UIScrollView.cpp
+  UIScrollViewBar.cpp
+  UISlider.cpp
+  UIText.cpp
+C:\cocos2d-x-3.9\rgame\cocos2d\cocos\base/ccUTF8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\ui\UIRichText.cpp)
+C:\cocos2d-x-3.9\rgame\cocos2d\cocos\ui/UIHelper.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\ui\UIRichText.cpp)
+  UITextAtlas.cpp
+  UITextBMFont.cpp
+C:\cocos2d-x-3.9\rgame\cocos2d\cocos\ui/UIHelper.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\ui\UISlider.cpp)
+  UITextField.cpp
+  UIVBox.cpp
+  UIWebView.cpp
+  UIWidget.cpp
+  CCAction.cpp
+  CCActionCamera.cpp
+  CCActionCatmullRom.cpp
+C:\cocos2d-x-3.9\rgame\cocos2d\cocos\ui/UIHelper.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\ui\UITextField.cpp)
+C:\cocos2d-x-3.9\rgame\cocos2d\cocos\base/ccUTF8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\ui\UITextField.cpp)
+C:\cocos2d-x-3.9\rgame\cocos2d\cocos\ui/UIHelper.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\ui\UIWidget.cpp)
+  CCActionEase.cpp
+  CCActionGrid.cpp
+  CCActionGrid3D.cpp
+  CCActionInstant.cpp
+  CCActionInterval.cpp
+  CCActionManager.cpp
+  CCActionPageTurn3D.cpp
+  CCActionProgressTimer.cpp
+  CCActionTiledGrid.cpp
+  CCActionTween.cpp
+  CCAnimation.cpp
+  CCAnimationCache.cpp
+  CCAtlasNode.cpp
+  CCAutoPolygon.cpp
+  CCCamera.cpp
+  CCCameraBackgroundBrush.cpp
+  CCClippingNode.cpp
+  CCClippingRectangleNode.cpp
+  CCComponent.cpp
+  CCComponentContainer.cpp
+  CCDrawingPrimitives.cpp
+  CCDrawNode.cpp
+  CCFastTMXLayer.cpp
+  CCFastTMXTiledMap.cpp
+  CCFontAtlas.cpp
+  CCFontAtlasCache.cpp
+  CCFontCharMap.cpp
+  CCFontFNT.cpp
+C:\cocos2d-x-3.9\rgame\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 CCFastTMXTiledMap.cpp)
+C:\cocos2d-x-3.9\rgame\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 CCFastTMXLayer.cpp)
+C:\cocos2d-x-3.9\rgame\cocos2d\cocos\base/ccUTF8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 CCFontAtlas.cpp)
+  CCFontFreeType.cpp
+CCFontFreeType.cpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  CCGLBufferedNode.cpp
+  CCGrabber.cpp
+  CCGrid.cpp
+  CCLabel.cpp
+C:\cocos2d-x-3.9\rgame\cocos2d\cocos\base/ccUTF8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 CCFontFreeType.cpp)
+  CCLabelAtlas.cpp
+  CCLabelBMFont.cpp
+  CCLabelTextFormatter.cpp
+  CCLabelTTF.cpp
+C:\cocos2d-x-3.9\rgame\cocos2d\cocos\base/ccUTF8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 CCLabel.cpp)
+  CCLayer.cpp
+CCLabel.cpp(714): warning C4018: '>': signed 또는 unsigned가 일치하지 않습니다.
+CCLabel.cpp(716): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  CCLight.cpp
+C:\cocos2d-x-3.9\rgame\cocos2d\cocos\base/ccUTF8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 CCLabelTextFormatter.cpp)
+  CCMenu.cpp
+  CCMenuItem.cpp
+  CCMotionStreak.cpp
+  CCNode.cpp
+  CCNodeGrid.cpp
+  CCParallaxNode.cpp
+  CCParticleBatchNode.cpp
+  CCParticleExamples.cpp
+  CCParticleSystem.cpp
+  CCParticleSystemQuad.cpp
+  CCProgressTimer.cpp
+  CCProtectedNode.cpp
+  CCRenderTexture.cpp
+  CCScene.cpp
+  CCSprite.cpp
+  CCSpriteBatchNode.cpp
+  CCSpriteFrame.cpp
+C:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 CCScene.cpp)
+C:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 CCScene.cpp)
+  CCSpriteFrameCache.cpp
+  CCTextFieldTTF.cpp
+  CCTileMapAtlas.cpp
+  CCTMXLayer.cpp
+  CCTMXObjectGroup.cpp
+  CCTMXTiledMap.cpp
+  CCTMXXMLParser.cpp
+CCTMXXMLParser.cpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  CCTransition.cpp
+C:\cocos2d-x-3.9\rgame\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 CCTMXLayer.cpp)
+  CCTransitionPageTurn.cpp
+C:\cocos2d-x-3.9\rgame\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 CCTMXTiledMap.cpp)
+  CCTransitionProgress.cpp
+  CCTweenFunction.cpp
+C:\cocos2d-x-3.9\rgame\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 CCTMXXMLParser.cpp)
+  1개 파일이 복사되었습니다.
+  2개 파일이 복사되었습니다.
+  4개 파일이 복사되었습니다.
+  2개 파일이 복사되었습니다.
+  2개 파일이 복사되었습니다.
+  3개 파일이 복사되었습니다.
+  1개 파일이 복사되었습니다.
+  2개 파일이 복사되었습니다.
+  2개 파일이 복사되었습니다.
+  2개 파일이 복사되었습니다.
+  2개 파일이 복사되었습니다.
+  2개 파일이 복사되었습니다.
+  2개 파일이 복사되었습니다.
+  6개 파일이 복사되었습니다.
+  2개 파일이 복사되었습니다.
+  2개 파일이 복사되었습니다.
+libbullet.lib(btAlignedAllocator.obj) : warning LNK4075: '/EDITANDCONTINUE'이(가) '/OPT:LBR' 사양으로 인해 무시됩니다.
+     C:\cocos2d-x-3.9\rgame\proj.win32\Debug.win32\libcocos2d.lib 라이브러리 및 C:\cocos2d-x-3.9\rgame\proj.win32\Debug.win32\libcocos2d.exp 개체를 생성하고 있습니다.
+LINK : warning LNK4098: 'LIBCMT' defaultlib가 다른 라이브러리와 충돌합니다. /NODEFAULTLIB:library를 사용하십시오.
+LINK : warning LNK4098: 'MSVCRT' defaultlib가 다른 라이브러리와 충돌합니다. /NODEFAULTLIB:library를 사용하십시오.
+libtiff-2015.lib(tif_aux.obj) : warning LNK4204: 'C:\cocos2d-x-3.9\rgame\proj.win32\Debug.win32\vc140.pdb'에 참조 모듈에 대한 디버깅 정보가 없습니다. 디버깅 정보가 없는 것처럼 개체를 링크합니다.
+libtiff-2015.lib(tif_close.obj) : warning LNK4204: 'C:\cocos2d-x-3.9\rgame\proj.win32\Debug.win32\vc140.pdb'에 참조 모듈에 대한 디버깅 정보가 없습니다. 디버깅 정보가 없는 것처럼 개체를 링크합니다.
+libtiff-2015.lib(tif_codec.obj) : warning LNK4204: 'C:\cocos2d-x-3.9\rgame\proj.win32\Debug.win32\vc140.pdb'에 참조 모듈에 대한 디버깅 정보가 없습니다. 디버깅 정보가 없는 것처럼 개체를 링크합니다.
+libtiff-2015.lib(tif_color.obj) : warning LNK4204: 'C:\cocos2d-x-3.9\rgame\proj.win32\Debug.win32\vc140.pdb'에 참조 모듈에 대한 디버깅 정보가 없습니다. 디버깅 정보가 없는 것처럼 개체를 링크합니다.
+libtiff-2015.lib(tif_compress.obj) : warning LNK4204: 'C:\cocos2d-x-3.9\rgame\proj.win32\Debug.win32\vc140.pdb'에 참조 모듈에 대한 디버깅 정보가 없습니다. 디버깅 정보가 없는 것처럼 개체를 링크합니다.
+libtiff-2015.lib(tif_dir.obj) : warning LNK4204: 'C:\cocos2d-x-3.9\rgame\proj.win32\Debug.win32\vc140.pdb'에 참조 모듈에 대한 디버깅 정보가 없습니다. 디버깅 정보가 없는 것처럼 개체를 링크합니다.
+libtiff-2015.lib(tif_dirinfo.obj) : warning LNK4204: 'C:\cocos2d-x-3.9\rgame\proj.win32\Debug.win32\vc140.pdb'에 참조 모듈에 대한 디버깅 정보가 없습니다. 디버깅 정보가 없는 것처럼 개체를 링크합니다.
+libtiff-2015.lib(tif_dirread.obj) : warning LNK4204: 'C:\cocos2d-x-3.9\rgame\proj.win32\Debug.win32\vc140.pdb'에 참조 모듈에 대한 디버깅 정보가 없습니다. 디버깅 정보가 없는 것처럼 개체를 링크합니다.
+libtiff-2015.lib(tif_dirwrite.obj) : warning LNK4204: 'C:\cocos2d-x-3.9\rgame\proj.win32\Debug.win32\vc140.pdb'에 참조 모듈에 대한 디버깅 정보가 없습니다. 디버깅 정보가 없는 것처럼 개체를 링크합니다.
+libtiff-2015.lib(tif_dumpmode.obj) : warning LNK4204: 'C:\cocos2d-x-3.9\rgame\proj.win32\Debug.win32\vc140.pdb'에 참조 모듈에 대한 디버깅 정보가 없습니다. 디버깅 정보가 없는 것처럼 개체를 링크합니다.
+libtiff-2015.lib(tif_error.obj) : warning LNK4204: 'C:\cocos2d-x-3.9\rgame\proj.win32\Debug.win32\vc140.pdb'에 참조 모듈에 대한 디버깅 정보가 없습니다. 디버깅 정보가 없는 것처럼 개체를 링크합니다.
+libtiff-2015.lib(tif_fax3.obj) : warning LNK4204: 'C:\cocos2d-x-3.9\rgame\proj.win32\Debug.win32\vc140.pdb'에 참조 모듈에 대한 디버깅 정보가 없습니다. 디버깅 정보가 없는 것처럼 개체를 링크합니다.
+libtiff-2015.lib(tif_fax3sm.obj) : warning LNK4204: 'C:\cocos2d-x-3.9\rgame\proj.win32\Debug.win32\vc140.pdb'에 참조 모듈에 대한 디버깅 정보가 없습니다. 디버깅 정보가 없는 것처럼 개체를 링크합니다.
+libtiff-2015.lib(tif_getimage.obj) : warning LNK4204: 'C:\cocos2d-x-3.9\rgame\proj.win32\Debug.win32\vc140.pdb'에 참조 모듈에 대한 디버깅 정보가 없습니다. 디버깅 정보가 없는 것처럼 개체를 링크합니다.
+libtiff-2015.lib(tif_flush.obj) : warning LNK4204: 'C:\cocos2d-x-3.9\rgame\proj.win32\Debug.win32\vc140.pdb'에 참조 모듈에 대한 디버깅 정보가 없습니다. 디버깅 정보가 없는 것처럼 개체를 링크합니다.
+libtiff-2015.lib(tif_luv.obj) : warning LNK4204: 'C:\cocos2d-x-3.9\rgame\proj.win32\Debug.win32\vc140.pdb'에 참조 모듈에 대한 디버깅 정보가 없습니다. 디버깅 정보가 없는 것처럼 개체를 링크합니다.
+libtiff-2015.lib(tif_lzw.obj) : warning LNK4204: 'C:\cocos2d-x-3.9\rgame\proj.win32\Debug.win32\vc140.pdb'에 참조 모듈에 대한 디버깅 정보가 없습니다. 디버깅 정보가 없는 것처럼 개체를 링크합니다.
+libtiff-2015.lib(tif_next.obj) : warning LNK4204: 'C:\cocos2d-x-3.9\rgame\proj.win32\Debug.win32\vc140.pdb'에 참조 모듈에 대한 디버깅 정보가 없습니다. 디버깅 정보가 없는 것처럼 개체를 링크합니다.
+libtiff-2015.lib(tif_open.obj) : warning LNK4204: 'C:\cocos2d-x-3.9\rgame\proj.win32\Debug.win32\vc140.pdb'에 참조 모듈에 대한 디버깅 정보가 없습니다. 디버깅 정보가 없는 것처럼 개체를 링크합니다.
+libtiff-2015.lib(tif_packbits.obj) : warning LNK4204: 'C:\cocos2d-x-3.9\rgame\proj.win32\Debug.win32\vc140.pdb'에 참조 모듈에 대한 디버깅 정보가 없습니다. 디버깅 정보가 없는 것처럼 개체를 링크합니다.
+libtiff-2015.lib(tif_predict.obj) : warning LNK4204: 'C:\cocos2d-x-3.9\rgame\proj.win32\Debug.win32\vc140.pdb'에 참조 모듈에 대한 디버깅 정보가 없습니다. 디버깅 정보가 없는 것처럼 개체를 링크합니다.
+libtiff-2015.lib(tif_read.obj) : warning LNK4204: 'C:\cocos2d-x-3.9\rgame\proj.win32\Debug.win32\vc140.pdb'에 참조 모듈에 대한 디버깅 정보가 없습니다. 디버깅 정보가 없는 것처럼 개체를 링크합니다.
+libtiff-2015.lib(tif_swab.obj) : warning LNK4204: 'C:\cocos2d-x-3.9\rgame\proj.win32\Debug.win32\vc140.pdb'에 참조 모듈에 대한 디버깅 정보가 없습니다. 디버깅 정보가 없는 것처럼 개체를 링크합니다.
+libtiff-2015.lib(tif_strip.obj) : warning LNK4204: 'C:\cocos2d-x-3.9\rgame\proj.win32\Debug.win32\vc140.pdb'에 참조 모듈에 대한 디버깅 정보가 없습니다. 디버깅 정보가 없는 것처럼 개체를 링크합니다.
+libtiff-2015.lib(tif_thunder.obj) : warning LNK4204: 'C:\cocos2d-x-3.9\rgame\proj.win32\Debug.win32\vc140.pdb'에 참조 모듈에 대한 디버깅 정보가 없습니다. 디버깅 정보가 없는 것처럼 개체를 링크합니다.
+libtiff-2015.lib(tif_tile.obj) : warning LNK4204: 'C:\cocos2d-x-3.9\rgame\proj.win32\Debug.win32\vc140.pdb'에 참조 모듈에 대한 디버깅 정보가 없습니다. 디버깅 정보가 없는 것처럼 개체를 링크합니다.
+libtiff-2015.lib(tif_warning.obj) : warning LNK4204: 'C:\cocos2d-x-3.9\rgame\proj.win32\Debug.win32\vc140.pdb'에 참조 모듈에 대한 디버깅 정보가 없습니다. 디버깅 정보가 없는 것처럼 개체를 링크합니다.
+libtiff-2015.lib(tif_write.obj) : warning LNK4204: 'C:\cocos2d-x-3.9\rgame\proj.win32\Debug.win32\vc140.pdb'에 참조 모듈에 대한 디버깅 정보가 없습니다. 디버깅 정보가 없는 것처럼 개체를 링크합니다.
+libtiff-2015.lib(tif_win32.obj) : warning LNK4204: 'C:\cocos2d-x-3.9\rgame\proj.win32\Debug.win32\vc140.pdb'에 참조 모듈에 대한 디버깅 정보가 없습니다. 디버깅 정보가 없는 것처럼 개체를 링크합니다.
+  libcocos2d.vcxproj -> C:\cocos2d-x-3.9\rgame\proj.win32\Debug.win32\libcocos2d.dll
+  libcocos2d.vcxproj -> C:\cocos2d-x-3.9\rgame\proj.win32\Debug.win32\libcocos2d.pdb (Full PDB)

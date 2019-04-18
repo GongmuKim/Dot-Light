@@ -1,0 +1,680 @@
+﻿  AppDelegate.cpp
+  data.cpp
+  enemy.cpp
+  GameMenuScene.cpp
+  GameScene.cpp
+  GB2ShapeCache-x.cpp
+  HelloWorldScene.cpp
+  loading.cpp
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base\ccutf8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\Classes\GameScene.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base\ccutf8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\Classes\loading.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base\ccutf8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\Classes\GB2ShapeCache-x.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base\ccutf8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\Classes\enemy.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base\ccutf8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\Classes\data.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base\ccutf8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\Classes\AppDelegate.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base\ccutf8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\Classes\GameMenuScene.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base\ccutf8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\Classes\HelloWorldScene.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics\ccphysicsbody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\Classes\GameScene.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics\ccphysicsbody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\Classes\loading.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics\ccphysicsshape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\Classes\GameScene.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics\ccphysicsshape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\Classes\loading.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics\ccphysicsbody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\Classes\GB2ShapeCache-x.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics\ccphysicsshape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\Classes\GB2ShapeCache-x.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics\ccphysicsbody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\Classes\AppDelegate.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics\ccphysicsshape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\Classes\AppDelegate.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics\ccphysicsbody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\Classes\enemy.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics\ccphysicsshape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\Classes\enemy.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics\ccphysicsbody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\Classes\data.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics\ccphysicsshape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\Classes\data.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\Classes\GameScene.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\Classes\loading.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\Classes\GB2ShapeCache-x.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\Classes\AppDelegate.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics\ccphysicsbody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\Classes\HelloWorldScene.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics\ccphysicsshape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\Classes\HelloWorldScene.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics\ccphysicsbody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\Classes\GameMenuScene.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics\ccphysicsshape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\Classes\GameMenuScene.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\Classes\data.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\Classes\enemy.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\Classes\HelloWorldScene.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\Classes\GameMenuScene.cpp)
+c:\cocos2d-x-3.9\rgame\classes\data.cpp(6): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base\ccuserdefault.h(238): note: 'cocos2d::UserDefault::sharedUserDefault' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\data.cpp(12): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base\ccuserdefault.h(238): note: 'cocos2d::UserDefault::sharedUserDefault' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\data.cpp(16): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base\ccuserdefault.h(238): note: 'cocos2d::UserDefault::sharedUserDefault' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\data.cpp(20): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base\ccuserdefault.h(238): note: 'cocos2d::UserDefault::sharedUserDefault' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\loading.h(25): warning C4996: 'cocos2d::LabelTTF': deprecated로 선언되었습니다. (소스 파일 컴파일 중 ..\Classes\loading.cpp)
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\2d\cclabelttf.h(67): note: 'cocos2d::LabelTTF' 선언을 참조하십시오. (소스 파일 컴파일 중 ..\Classes\loading.cpp)
+c:\cocos2d-x-3.9\rgame\classes\helloworldscene.cpp(78): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\loading.cpp(53): warning C4996: 'cocos2d::LabelTTF::create': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\2d\cclabelttf.h(83): note: 'cocos2d::LabelTTF::create' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\loading.cpp(69): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base\ccuserdefault.h(238): note: 'cocos2d::UserDefault::sharedUserDefault' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\loading.cpp(70): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base\ccuserdefault.h(238): note: 'cocos2d::UserDefault::sharedUserDefault' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\loading.cpp(71): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base\ccuserdefault.h(238): note: 'cocos2d::UserDefault::sharedUserDefault' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\loading.cpp(72): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base\ccuserdefault.h(238): note: 'cocos2d::UserDefault::sharedUserDefault' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\loading.cpp(80): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base\ccuserdefault.h(238): note: 'cocos2d::UserDefault::sharedUserDefault' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\loading.cpp(86): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base\ccuserdefault.h(238): note: 'cocos2d::UserDefault::sharedUserDefault' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\loading.cpp(88): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base\ccuserdefault.h(238): note: 'cocos2d::UserDefault::sharedUserDefault' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\loading.cpp(89): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base\ccuserdefault.h(238): note: 'cocos2d::UserDefault::sharedUserDefault' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\loading.cpp(190): warning C4996: 'cocos2d::LabelTTF::setString': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\2d\cclabelttf.h(129): note: 'cocos2d::LabelTTF::setString' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\loading.cpp(193): warning C4996: 'cocos2d::Director::sharedDirector': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base\ccdirector.h(138): note: 'cocos2d::Director::sharedDirector' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\enemy.cpp(27): warning C4800: 'int': 'true' 또는 'false'로 bool 값을 강제하고 있습니다(성능 경고).
+c:\cocos2d-x-3.9\rgame\classes\gb2shapecache-x.cpp(138): warning C4996: 'cocos2d::Dictionary': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(1039): note: 'cocos2d::Dictionary' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gb2shapecache-x.cpp(139): warning C4996: 'cocos2d::String': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(1051): note: 'cocos2d::String' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gb2shapecache-x.cpp(140): warning C4996: 'cocos2d::String': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(1051): note: 'cocos2d::String' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gb2shapecache-x.cpp(143): warning C4996: 'cocos2d::Dictionary': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(1039): note: 'cocos2d::Dictionary' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gb2shapecache-x.cpp(154): warning C4996: 'cocos2d::Dictionary': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(1039): note: 'cocos2d::Dictionary' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gb2shapecache-x.cpp(155): warning C4996: 'cocos2d::String': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(1051): note: 'cocos2d::String' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gb2shapecache-x.cpp(157): warning C4996: 'cocos2d::Array': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(1037): note: 'cocos2d::Array' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gb2shapecache-x.cpp(160): warning C4996: 'cocos2d::Object': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(539): note: 'cocos2d::Object' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gb2shapecache-x.cpp(165): warning C4996: 'cocos2d::Dictionary': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(1039): note: 'cocos2d::Dictionary' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gb2shapecache-x.cpp(168): warning C4996: 'cocos2d::String': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(1051): note: 'cocos2d::String' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gb2shapecache-x.cpp(169): warning C4996: 'cocos2d::String': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(1051): note: 'cocos2d::String' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gb2shapecache-x.cpp(170): warning C4996: 'cocos2d::String': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(1051): note: 'cocos2d::String' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gb2shapecache-x.cpp(171): warning C4996: 'cocos2d::String': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(1051): note: 'cocos2d::String' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gb2shapecache-x.cpp(172): warning C4996: 'cocos2d::String': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(1051): note: 'cocos2d::String' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gb2shapecache-x.cpp(173): warning C4996: 'cocos2d::String': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(1051): note: 'cocos2d::String' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gb2shapecache-x.cpp(174): warning C4996: 'cocos2d::String': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(1051): note: 'cocos2d::String' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gb2shapecache-x.cpp(174): warning C4800: 'int': 'true' 또는 'false'로 bool 값을 강제하고 있습니다(성능 경고).
+c:\cocos2d-x-3.9\rgame\classes\gb2shapecache-x.cpp(176): warning C4996: 'cocos2d::String': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(1051): note: 'cocos2d::String' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gb2shapecache-x.cpp(177): warning C4996: 'cocos2d::String': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(1051): note: 'cocos2d::String' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gb2shapecache-x.cpp(180): warning C4996: 'cocos2d::String': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(1051): note: 'cocos2d::String' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gb2shapecache-x.cpp(185): warning C4996: 'cocos2d::Array': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(1037): note: 'cocos2d::Array' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gb2shapecache-x.cpp(187): warning C4996: 'cocos2d::Object': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(539): note: 'cocos2d::Object' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gb2shapecache-x.cpp(199): warning C4996: 'cocos2d::Array': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(1037): note: 'cocos2d::Array' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gb2shapecache-x.cpp(204): warning C4996: 'cocos2d::Object': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(539): note: 'cocos2d::Object' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gb2shapecache-x.cpp(209): warning C4996: 'cocos2d::String': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(1051): note: 'cocos2d::String' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gb2shapecache-x.cpp(230): warning C4996: 'cocos2d::Dictionary': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(1039): note: 'cocos2d::Dictionary' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gb2shapecache-x.cpp(234): warning C4996: 'cocos2d::String': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(1051): note: 'cocos2d::String' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gb2shapecache-x.cpp(235): warning C4996: 'cocos2d::String': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(1051): note: 'cocos2d::String' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\cocos2d\extensions\gui\cccontrolextension\cccontrolpotentiometer.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\Classes\GameScene.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\extensions\gui\cccontrolextension\cccontrolpotentiometer.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\Classes\AppDelegate.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\extensions\gui\cccontrolextension\cccontrolpotentiometer.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\Classes\GameMenuScene.cpp)
+c:\cocos2d-x-3.9\rgame\classes\gamescene.h(94): warning C4996: 'cocos2d::kmMat4': deprecated로 선언되었습니다. (소스 파일 컴파일 중 ..\Classes\GameScene.cpp)
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(1061): note: 'cocos2d::kmMat4' 선언을 참조하십시오. (소스 파일 컴파일 중 ..\Classes\GameScene.cpp)
+c:\cocos2d-x-3.9\rgame\classes\gamescene.h(96): warning C4996: 'cocos2d::Object': deprecated로 선언되었습니다. (소스 파일 컴파일 중 ..\Classes\GameScene.cpp)
+c:\cocos2d-x-3.9\rgame\classes\gamescene.h(94): warning C4996: 'cocos2d::kmMat4': deprecated로 선언되었습니다. (소스 파일 컴파일 중 ..\Classes\AppDelegate.cpp)
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(1061): note: 'cocos2d::kmMat4' 선언을 참조하십시오. (소스 파일 컴파일 중 ..\Classes\AppDelegate.cpp)
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(539): note: 'cocos2d::Object' 선언을 참조하십시오. (소스 파일 컴파일 중 ..\Classes\GameScene.cpp)
+c:\cocos2d-x-3.9\rgame\classes\gamescene.h(102): warning C4996: 'cocos2d::Object': deprecated로 선언되었습니다. (소스 파일 컴파일 중 ..\Classes\GameScene.cpp)
+c:\cocos2d-x-3.9\rgame\classes\gamescene.h(96): warning C4996: 'cocos2d::Object': deprecated로 선언되었습니다. (소스 파일 컴파일 중 ..\Classes\AppDelegate.cpp)
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(539): note: 'cocos2d::Object' 선언을 참조하십시오. (소스 파일 컴파일 중 ..\Classes\AppDelegate.cpp)c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(539): note: 'cocos2d::Object' 선언을 참조하십시오. (소스 파일 컴파일 중 ..\Classes\GameScene.cpp)
+  
+c:\cocos2d-x-3.9\rgame\classes\gamescene.h(102): warning C4996: 'cocos2d::Object': deprecated로 선언되었습니다. (소스 파일 컴파일 중 ..\Classes\AppDelegate.cpp)
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(539): note: 'cocos2d::Object' 선언을 참조하십시오. (소스 파일 컴파일 중 ..\Classes\AppDelegate.cpp)
+c:\cocos2d-x-3.9\rgame\classes\gamescene.h(94): warning C4996: 'cocos2d::kmMat4': deprecated로 선언되었습니다. (소스 파일 컴파일 중 ..\Classes\GameMenuScene.cpp)
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(1061): note: 'cocos2d::kmMat4' 선언을 참조하십시오. (소스 파일 컴파일 중 ..\Classes\GameMenuScene.cpp)
+c:\cocos2d-x-3.9\rgame\classes\gamescene.h(96): warning C4996: 'cocos2d::Object': deprecated로 선언되었습니다. (소스 파일 컴파일 중 ..\Classes\GameMenuScene.cpp)
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(539): note: 'cocos2d::Object' 선언을 참조하십시오. (소스 파일 컴파일 중 ..\Classes\GameMenuScene.cpp)
+c:\cocos2d-x-3.9\rgame\classes\gamescene.h(102): warning C4996: 'cocos2d::Object': deprecated로 선언되었습니다. (소스 파일 컴파일 중 ..\Classes\GameMenuScene.cpp)
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(539): note: 'cocos2d::Object' 선언을 참조하십시오. (소스 파일 컴파일 중 ..\Classes\GameMenuScene.cpp)
+c:\cocos2d-x-3.9\rgame\classes\loading.h(25): warning C4996: 'cocos2d::LabelTTF': deprecated로 선언되었습니다. (소스 파일 컴파일 중 ..\Classes\AppDelegate.cpp)
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\2d\cclabelttf.h(67): note: 'cocos2d::LabelTTF' 선언을 참조하십시오. (소스 파일 컴파일 중 ..\Classes\AppDelegate.cpp)
+c:\cocos2d-x-3.9\rgame\classes\popup.h(18): warning C4996: 'cocos2d::CCLayerColor': deprecated로 선언되었습니다. (소스 파일 컴파일 중 ..\Classes\GameScene.cpp)
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(687): note: 'cocos2d::CCLayerColor' 선언을 참조하십시오. (소스 파일 컴파일 중 ..\Classes\GameScene.cpp)
+c:\cocos2d-x-3.9\rgame\classes\popup.h(19): warning C4996: 'cocos2d::CCLayerColor': deprecated로 선언되었습니다. (소스 파일 컴파일 중 ..\Classes\GameScene.cpp)
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(687): note: 'cocos2d::CCLayerColor' 선언을 참조하십시오. (소스 파일 컴파일 중 ..\Classes\GameScene.cpp)
+c:\cocos2d-x-3.9\rgame\classes\appdelegate.cpp(12): warning C4996: 'CocosDenshion::SimpleAudioEngine::sharedEngine': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\audio\include\simpleaudioengine.h(70): note: 'CocosDenshion::SimpleAudioEngine::sharedEngine' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\appdelegate.cpp(80): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+c:\cocos2d-x-3.9\rgame\classes\gamemenuscene.cpp(69): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+c:\cocos2d-x-3.9\rgame\classes\gamemenuscene.cpp(70): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(113): warning C4996: 'cocos2d::CCPoint': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(775): note: 'cocos2d::CCPoint' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(144): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(93): warning C4996: 'cocos2d::Director::sharedDirector': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base\ccdirector.h(138): note: 'cocos2d::Director::sharedDirector' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(124): warning C4996: 'cocos2d::ccc4f': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(439): note: 'cocos2d::ccc4f' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(129): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(130): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(195): warning C4996: 'cocos2d::CallFunc::create': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\2d\ccactioninstant.h(339): note: 'cocos2d::CallFunc::create' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(204): warning C4996: 'cocos2d::__NotificationCenter::sharedNotificationCenter': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccnotificationcenter.h(66): note: 'cocos2d::__NotificationCenter::sharedNotificationCenter' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(207): warning C4996: 'cocos2d::__NotificationCenter::sharedNotificationCenter': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccnotificationcenter.h(66): note: 'cocos2d::__NotificationCenter::sharedNotificationCenter' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(210): warning C4996: 'cocos2d::__NotificationCenter::sharedNotificationCenter': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccnotificationcenter.h(66): note: 'cocos2d::__NotificationCenter::sharedNotificationCenter' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(213): warning C4996: 'cocos2d::__NotificationCenter::sharedNotificationCenter': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccnotificationcenter.h(66): note: 'cocos2d::__NotificationCenter::sharedNotificationCenter' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(217): warning C4996: 'cocos2d::__NotificationCenter::sharedNotificationCenter': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccnotificationcenter.h(66): note: 'cocos2d::__NotificationCenter::sharedNotificationCenter' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(248): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(250): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(286): warning C4996: 'cocos2d::CCGLProgram': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(564): note: 'cocos2d::CCGLProgram' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(297): warning C4996: 'cocos2d::kCCVertexAttrib_Position': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(809): note: 'cocos2d::kCCVertexAttrib_Position' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(298): warning C4996: 'cocos2d::kCCVertexAttrib_Color': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(810): note: 'cocos2d::kCCVertexAttrib_Color' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(299): warning C4996: 'cocos2d::kCCVertexAttrib_TexCoords': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(811): note: 'cocos2d::kCCVertexAttrib_TexCoords' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(288): warning C4996: 'cocos2d::GLProgram::initWithVertexShaderByteArray': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\renderer\ccglprogram.h(466): note: 'cocos2d::GLProgram::initWithVertexShaderByteArray' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(297): warning C4996: 'cocos2d::GLProgram::addAttribute': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\renderer\ccglprogram.h(470): note: 'cocos2d::GLProgram::addAttribute' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(298): warning C4996: 'cocos2d::GLProgram::addAttribute': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\renderer\ccglprogram.h(470): note: 'cocos2d::GLProgram::addAttribute' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(299): warning C4996: 'cocos2d::GLProgram::addAttribute': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\renderer\ccglprogram.h(470): note: 'cocos2d::GLProgram::addAttribute' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(264): warning C4101: 'name' :참조되지 않은 지역 변수입니다.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(343): warning C4996: 'cocos2d::kCCVertexAttrib_Position': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(809): note: 'cocos2d::kCCVertexAttrib_Position' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(344): warning C4996: 'cocos2d::kCCVertexAttrib_Color': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(810): note: 'cocos2d::kCCVertexAttrib_Color' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(345): warning C4996: 'cocos2d::kCCVertexAttrib_TexCoords': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(811): note: 'cocos2d::kCCVertexAttrib_TexCoords' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(343): warning C4996: 'cocos2d::GLProgram::addAttribute': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\renderer\ccglprogram.h(470): note: 'cocos2d::GLProgram::addAttribute' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(344): warning C4996: 'cocos2d::GLProgram::addAttribute': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\renderer\ccglprogram.h(470): note: 'cocos2d::GLProgram::addAttribute' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(345): warning C4996: 'cocos2d::GLProgram::addAttribute': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\renderer\ccglprogram.h(470): note: 'cocos2d::GLProgram::addAttribute' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(349): warning C4996: 'cocos2d::Node::getShaderProgram': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\2d\ccnode.h(1034): note: 'cocos2d::Node::getShaderProgram' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(353): warning C4996: 'cocos2d::Node::getShaderProgram': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\2d\ccnode.h(1034): note: 'cocos2d::Node::getShaderProgram' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(363): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(364): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(368): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(369): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(370): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(375): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(376): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(378): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(379): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(380): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(381): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(382): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(383): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(384): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(390): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(391): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(392): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(401): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(402): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(404): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(405): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(406): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(412): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(413): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(414): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(419): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(421): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(423): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(424): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(428): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(429): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(430): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(432): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(433): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(436): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(437): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(439): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(440): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(441): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(442): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(448): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(449): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(450): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(461): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(462): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(463): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(476): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(477): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(478): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(491): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(492): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(493): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(506): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(507): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(508): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(521): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(522): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(523): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(539): warning C4474: 'sprintf' : 서식 문자열에 전달된 인수가 너무 많습니다.
+  c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(539): note: 자리 표시자 및 해당 매개 변수에는 variadic 인수가 0개 필요하지만 1개가 제공되었습니다.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(540): warning C4474: 'sprintf' : 서식 문자열에 전달된 인수가 너무 많습니다.
+  c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(540): note: 자리 표시자 및 해당 매개 변수에는 variadic 인수가 0개 필요하지만 1개가 제공되었습니다.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(583): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(584): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(576): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(580): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(604): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(609): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(616): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(633): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(710): warning C4996: 'cocos2d::CCSprite': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(680): note: 'cocos2d::CCSprite' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(846): warning C4996: 'cocos2d::CCSprite': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(680): note: 'cocos2d::CCSprite' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(881): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(886): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+c:\cocos2d-x-3.9\rgame\classes\gamemenuscene.cpp(51): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(784): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+c:\cocos2d-x-3.9\rgame\classes\gamemenuscene.cpp(54): warning C4996: 'cocos2d::MenuItemToggle::createWithTarget': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\2d\ccmenuitem.h(484): note: 'cocos2d::MenuItemToggle::createWithTarget' 선언을 참조하십시오.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(785): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+c:\cocos2d-x-3.9\rgame\classes\gamemenuscene.cpp(55): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamemenuscene.cpp(59): warning C4996: 'cocos2d::MenuItemToggle::createWithTarget': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\2d\ccmenuitem.h(484): note: 'cocos2d::MenuItemToggle::createWithTarget' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(803): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.c:\cocos2d-x-3.9\rgame\classes\gamemenuscene.cpp(60): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamemenuscene.cpp(100): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+  
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(804): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(809): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(820): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(821): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(826): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(939): warning C4996: 'cocos2d::CCSprite': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(680): note: 'cocos2d::CCSprite' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(1011): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(965): warning C4101: 'callback' :참조되지 않은 지역 변수입니다.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(1087): warning C4996: 'cocos2d::Node::boundingBox': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\2d\ccnode.h(1173): note: 'cocos2d::Node::boundingBox' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(1225): warning C4996: 'cocos2d::CCSprite': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(680): note: 'cocos2d::CCSprite' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(1309): warning C4996: 'cocos2d::String': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(1051): note: 'cocos2d::String' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(1226): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(1230): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamemenuscene.cpp(114): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamemenuscene.cpp(119): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamemenuscene.cpp(125): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamemenuscene.cpp(133): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamemenuscene.cpp(142): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamemenuscene.cpp(159): warning C4800: 'float': 'true' 또는 'false'로 bool 값을 강제하고 있습니다(성능 경고).
+c:\cocos2d-x-3.9\rgame\classes\gamemenuscene.cpp(163): warning C4800: 'float': 'true' 또는 'false'로 bool 값을 강제하고 있습니다(성능 경고).
+c:\cocos2d-x-3.9\rgame\classes\gamemenuscene.cpp(156): warning C4996: 'cocos2d::Director::sharedDirector': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base\ccdirector.h(138): note: 'cocos2d::Director::sharedDirector' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamemenuscene.cpp(159): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base\ccuserdefault.h(238): note: 'cocos2d::UserDefault::sharedUserDefault' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamemenuscene.cpp(163): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base\ccuserdefault.h(238): note: 'cocos2d::UserDefault::sharedUserDefault' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamemenuscene.cpp(183): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+c:\cocos2d-x-3.9\rgame\classes\gamemenuscene.cpp(182): warning C4996: 'cocos2d::CallFunc::create': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\2d\ccactioninstant.h(339): note: 'cocos2d::CallFunc::create' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamemenuscene.cpp(189): warning C4996: 'cocos2d::Director::sharedDirector': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base\ccdirector.h(138): note: 'cocos2d::Director::sharedDirector' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamemenuscene.cpp(196): warning C4996: 'cocos2d::Director::sharedDirector': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base\ccdirector.h(138): note: 'cocos2d::Director::sharedDirector' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(1379): warning C4996: 'cocos2d::CallFuncN::create': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\2d\ccactioninstant.h(435): note: 'cocos2d::CallFuncN::create' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(1382): warning C4996: 'cocos2d::Node::setZOrder': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\2d\ccnode.h(159): note: 'cocos2d::Node::setZOrder' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(1400): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(1399): warning C4996: 'cocos2d::CallFuncN::create': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\2d\ccactioninstant.h(435): note: 'cocos2d::CallFuncN::create' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(1411): warning C4996: 'cocos2d::Node::setZOrder': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\2d\ccnode.h(159): note: 'cocos2d::Node::setZOrder' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(1457): warning C4996: 'cocos2d::Node::boundingBox': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\2d\ccnode.h(1173): note: 'cocos2d::Node::boundingBox' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(1466): warning C4996: 'cocos2d::Node::boundingBox': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\2d\ccnode.h(1173): note: 'cocos2d::Node::boundingBox' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(1573): warning C4996: 'cocos2d::kmMat4': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(1061): note: 'cocos2d::kmMat4' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(1580): warning C4996: 'cocos2d::ccDrawSolidRect': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(999): note: 'cocos2d::ccDrawSolidRect' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(1640): warning C4996: 'cocos2d::ccColor4F': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(779): note: 'cocos2d::ccColor4F' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(1661): warning C4996: 'cocos2d::ccDrawColor4F': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(1011): note: 'cocos2d::ccDrawColor4F' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(1669): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(1673): warning C4996: 'cocos2d::ccDrawCircle': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(1003): note: 'cocos2d::ccDrawCircle' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(1679): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(1681): warning C4996: 'cocos2d::ccDrawSolidPoly': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(1001): note: 'cocos2d::ccDrawSolidPoly' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(1746): warning C4996: 'cocos2d::ccColor4F': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(779): note: 'cocos2d::ccColor4F' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(1945): warning C4996: 'cocos2d::CCSprite': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(680): note: 'cocos2d::CCSprite' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(1699): warning C4996: 'cocos2d::ccDrawColor4F': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(1011): note: 'cocos2d::ccDrawColor4F' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(1703): warning C4996: 'cocos2d::ccDrawColor4F': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(1011): note: 'cocos2d::ccDrawColor4F' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(1803): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(1855): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(1961): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(1741): warning C4101: 'ii' :참조되지 않은 지역 변수입니다.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(1940): warning C4101: 'b_angle' :참조되지 않은 지역 변수입니다.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(1940): warning C4101: 'b_dist' :참조되지 않은 지역 변수입니다.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(2082): warning C4996: 'cocos2d::ccColor4F': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(779): note: 'cocos2d::ccColor4F' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(2097): warning C4996: 'cocos2d::CCSprite': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(680): note: 'cocos2d::CCSprite' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(2112): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(2181): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(2281): warning C4996: 'cocos2d::Object': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(539): note: 'cocos2d::Object' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(2289): warning C4996: 'cocos2d::CCObject': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(538): note: 'cocos2d::CCObject' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(2303): warning C4996: 'cocos2d::CCString': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(1050): note: 'cocos2d::CCString' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(2298): warning C4996: 'cocos2d::Director::sharedDirector': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base\ccdirector.h(138): note: 'cocos2d::Director::sharedDirector' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(2306): warning C4996: 'cocos2d::Director::sharedDirector': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base\ccdirector.h(138): note: 'cocos2d::Director::sharedDirector' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(2307): warning C4996: 'cocos2d::Director::sharedDirector': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base\ccdirector.h(138): note: 'cocos2d::Director::sharedDirector' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(2308): warning C4996: 'cocos2d::Director::sharedDirector': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base\ccdirector.h(138): note: 'cocos2d::Director::sharedDirector' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(2309): warning C4996: 'cocos2d::Director::sharedDirector': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base\ccdirector.h(138): note: 'cocos2d::Director::sharedDirector' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(2317): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(2316): warning C4996: 'cocos2d::Director::sharedDirector': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base\ccdirector.h(138): note: 'cocos2d::Director::sharedDirector' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(2317): warning C4996: 'cocos2d::Director::sharedDirector': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base\ccdirector.h(138): note: 'cocos2d::Director::sharedDirector' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(2333): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(2332): warning C4996: 'cocos2d::Director::sharedDirector': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base\ccdirector.h(138): note: 'cocos2d::Director::sharedDirector' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(2333): warning C4996: 'cocos2d::Director::sharedDirector': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base\ccdirector.h(138): note: 'cocos2d::Director::sharedDirector' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(2348): warning C4996: 'cocos2d::Director::sharedDirector': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base\ccdirector.h(138): note: 'cocos2d::Director::sharedDirector' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(2353): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(2349): warning C4101: 'act' :참조되지 않은 지역 변수입니다.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(2379): warning C4996: 'cocos2d::__NotificationCenter::sharedNotificationCenter': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccnotificationcenter.h(66): note: 'cocos2d::__NotificationCenter::sharedNotificationCenter' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(2413): warning C4996: 'cocos2d::CCSprite': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(680): note: 'cocos2d::CCSprite' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\gamescene.cpp(2429): warning C4996: 'cocos2d::CCSprite': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(680): note: 'cocos2d::CCSprite' 선언을 참조하십시오.
+  mymath.cpp
+  myray.cpp
+  popup.cpp
+  TitleScene.cpp
+  main.cpp
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base\ccutf8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\Classes\mymath.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base\ccutf8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\Classes\myray.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base\ccutf8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\Classes\popup.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base\ccutf8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 main.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base\ccutf8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\Classes\TitleScene.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics\ccphysicsbody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\Classes\mymath.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics\ccphysicsshape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\Classes\mymath.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\Classes\mymath.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics\ccphysicsbody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\Classes\myray.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics\ccphysicsshape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\Classes\myray.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\Classes\myray.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics\ccphysicsbody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\Classes\popup.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics\ccphysicsshape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\Classes\popup.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics\ccphysicsbody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 main.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics\ccphysicsshape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 main.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\Classes\popup.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 main.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics\ccphysicsbody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\Classes\TitleScene.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\physics\ccphysicsshape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\Classes\TitleScene.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\Classes\TitleScene.cpp)
+c:\cocos2d-x-3.9\rgame\classes\mymath.cpp(37): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\mymath.cpp(63): warning C4305: '+=': 'double'에서 'float'(으)로 잘립니다.
+c:\cocos2d-x-3.9\rgame\classes\mymath.cpp(64): warning C4305: '+=': 'double'에서 'float'(으)로 잘립니다.
+c:\cocos2d-x-3.9\rgame\classes\mymath.cpp(65): warning C4305: '+=': 'double'에서 'float'(으)로 잘립니다.
+c:\cocos2d-x-3.9\rgame\classes\mymath.cpp(66): warning C4305: '+=': 'double'에서 'float'(으)로 잘립니다.
+c:\cocos2d-x-3.9\rgame\classes\mymath.cpp(79): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\myray.cpp(43): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\popup.h(18): warning C4996: 'cocos2d::CCLayerColor': deprecated로 선언되었습니다. (소스 파일 컴파일 중 ..\Classes\popup.cpp)
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(687): note: 'cocos2d::CCLayerColor' 선언을 참조하십시오. (소스 파일 컴파일 중 ..\Classes\popup.cpp)
+c:\cocos2d-x-3.9\rgame\classes\popup.h(19): warning C4996: 'cocos2d::CCLayerColor': deprecated로 선언되었습니다. (소스 파일 컴파일 중 ..\Classes\popup.cpp)
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(687): note: 'cocos2d::CCLayerColor' 선언을 참조하십시오. (소스 파일 컴파일 중 ..\Classes\popup.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\extensions\gui\cccontrolextension\cccontrolpotentiometer.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\Classes\TitleScene.cpp)
+c:\cocos2d-x-3.9\rgame\cocos2d\extensions\gui\cccontrolextension\cccontrolpotentiometer.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\Classes\popup.cpp)
+c:\cocos2d-x-3.9\rgame\classes\gamescene.h(94): warning C4996: 'cocos2d::kmMat4': deprecated로 선언되었습니다. (소스 파일 컴파일 중 ..\Classes\popup.cpp)
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(1061): note: 'cocos2d::kmMat4' 선언을 참조하십시오. (소스 파일 컴파일 중 ..\Classes\popup.cpp)
+c:\cocos2d-x-3.9\rgame\classes\gamescene.h(96): warning C4996: 'cocos2d::Object': deprecated로 선언되었습니다. (소스 파일 컴파일 중 ..\Classes\popup.cpp)
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(539): note: 'cocos2d::Object' 선언을 참조하십시오. (소스 파일 컴파일 중 ..\Classes\popup.cpp)
+c:\cocos2d-x-3.9\rgame\classes\gamescene.h(102): warning C4996: 'cocos2d::Object': deprecated로 선언되었습니다. (소스 파일 컴파일 중 ..\Classes\popup.cpp)
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(539): note: 'cocos2d::Object' 선언을 참조하십시오. (소스 파일 컴파일 중 ..\Classes\popup.cpp)
+c:\cocos2d-x-3.9\rgame\classes\popup.cpp(12): warning C4996: 'cocos2d::CCString': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(1050): note: 'cocos2d::CCString' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\popup.cpp(15): warning C4996: 'cocos2d::Director::sharedDirector': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base\ccdirector.h(138): note: 'cocos2d::Director::sharedDirector' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\popup.cpp(18): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\popup.cpp(41): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\popup.cpp(47): warning C4996: 'cocos2d::MenuItemToggle::createWithTarget': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\2d\ccmenuitem.h(484): note: 'cocos2d::MenuItemToggle::createWithTarget' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\popup.cpp(48): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\popup.cpp(52): warning C4996: 'cocos2d::MenuItemToggle::createWithTarget': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\2d\ccmenuitem.h(484): note: 'cocos2d::MenuItemToggle::createWithTarget' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\popup.cpp(53): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\popup.cpp(94): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\popup.cpp(110): warning C4996: 'cocos2d::CCString': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(1050): note: 'cocos2d::CCString' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\popup.cpp(115): warning C4800: 'float': 'true' 또는 'false'로 bool 값을 강제하고 있습니다(성능 경고).
+c:\cocos2d-x-3.9\rgame\classes\popup.cpp(119): warning C4800: 'float': 'true' 또는 'false'로 bool 값을 강제하고 있습니다(성능 경고).
+c:\cocos2d-x-3.9\rgame\classes\popup.cpp(115): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base\ccuserdefault.h(238): note: 'cocos2d::UserDefault::sharedUserDefault' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\titlescene.cpp(37): warning C4996: 'cocos2d::Director::sharedDirector': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base\ccdirector.h(138): note: 'cocos2d::Director::sharedDirector' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\titlescene.cpp(53): warning C4996: 'cocos2d::MenuItemToggle::createWithTarget': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\2d\ccmenuitem.h(484): note: 'cocos2d::MenuItemToggle::createWithTarget' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\titlescene.cpp(54): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+c:\cocos2d-x-3.9\rgame\classes\popup.cpp(119): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base\ccuserdefault.h(238): note: 'cocos2d::UserDefault::sharedUserDefault' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\titlescene.cpp(58): warning C4996: 'cocos2d::MenuItemToggle::createWithTarget': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\2d\ccmenuitem.h(484): note: 'cocos2d::MenuItemToggle::createWithTarget' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\popup.cpp(124): warning C4996: 'cocos2d::__NotificationCenter::sharedNotificationCenter': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccnotificationcenter.h(66): note: 'cocos2d::__NotificationCenter::sharedNotificationCenter' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\titlescene.cpp(59): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\popup.cpp(125): warning C4996: 'cocos2d::__NotificationCenter::sharedNotificationCenter': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccnotificationcenter.h(66): note: 'cocos2d::__NotificationCenter::sharedNotificationCenter' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\popup.cpp(126): warning C4996: 'cocos2d::__NotificationCenter::sharedNotificationCenter': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccnotificationcenter.h(66): note: 'cocos2d::__NotificationCenter::sharedNotificationCenter' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\popup.cpp(127): warning C4996: 'cocos2d::__NotificationCenter::sharedNotificationCenter': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccnotificationcenter.h(66): note: 'cocos2d::__NotificationCenter::sharedNotificationCenter' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\popup.cpp(128): warning C4996: 'cocos2d::__NotificationCenter::sharedNotificationCenter': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccnotificationcenter.h(66): note: 'cocos2d::__NotificationCenter::sharedNotificationCenter' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\popup.cpp(141): warning C4996: 'cocos2d::ccp': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 'cocos2d::ccp' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\titlescene.cpp(179): warning C4996: 'cocos2d::CCGLProgram': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(564): note: 'cocos2d::CCGLProgram' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\titlescene.cpp(191): warning C4996: 'cocos2d::kCCVertexAttrib_Position': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(809): note: 'cocos2d::kCCVertexAttrib_Position' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\titlescene.cpp(192): warning C4996: 'cocos2d::kCCVertexAttrib_Color': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(810): note: 'cocos2d::kCCVertexAttrib_Color' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\titlescene.cpp(193): warning C4996: 'cocos2d::kCCVertexAttrib_TexCoords': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(811): note: 'cocos2d::kCCVertexAttrib_TexCoords' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\titlescene.cpp(181): warning C4996: 'cocos2d::GLProgram::initWithVertexShaderByteArray': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\renderer\ccglprogram.h(466): note: 'cocos2d::GLProgram::initWithVertexShaderByteArray' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\titlescene.cpp(191): warning C4996: 'cocos2d::GLProgram::addAttribute': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\renderer\ccglprogram.h(470): note: 'cocos2d::GLProgram::addAttribute' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\titlescene.cpp(192): warning C4996: 'cocos2d::GLProgram::addAttribute': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\renderer\ccglprogram.h(470): note: 'cocos2d::GLProgram::addAttribute' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\titlescene.cpp(193): warning C4996: 'cocos2d::GLProgram::addAttribute': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\renderer\ccglprogram.h(470): note: 'cocos2d::GLProgram::addAttribute' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\titlescene.cpp(157): warning C4101: 'name' :참조되지 않은 지역 변수입니다.
+c:\cocos2d-x-3.9\rgame\classes\titlescene.cpp(238): warning C4996: 'cocos2d::kCCVertexAttrib_Position': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(809): note: 'cocos2d::kCCVertexAttrib_Position' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\titlescene.cpp(239): warning C4996: 'cocos2d::kCCVertexAttrib_Color': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(810): note: 'cocos2d::kCCVertexAttrib_Color' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\titlescene.cpp(240): warning C4996: 'cocos2d::kCCVertexAttrib_TexCoords': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(811): note: 'cocos2d::kCCVertexAttrib_TexCoords' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\titlescene.cpp(238): warning C4996: 'cocos2d::GLProgram::addAttribute': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\renderer\ccglprogram.h(470): note: 'cocos2d::GLProgram::addAttribute' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\titlescene.cpp(239): warning C4996: 'cocos2d::GLProgram::addAttribute': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\renderer\ccglprogram.h(470): note: 'cocos2d::GLProgram::addAttribute' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\titlescene.cpp(240): warning C4996: 'cocos2d::GLProgram::addAttribute': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\renderer\ccglprogram.h(470): note: 'cocos2d::GLProgram::addAttribute' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\titlescene.cpp(244): warning C4996: 'cocos2d::Node::getShaderProgram': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\2d\ccnode.h(1034): note: 'cocos2d::Node::getShaderProgram' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\titlescene.cpp(248): warning C4996: 'cocos2d::Node::getShaderProgram': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\2d\ccnode.h(1034): note: 'cocos2d::Node::getShaderProgram' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\titlescene.cpp(286): warning C4996: 'cocos2d::kCCVertexAttrib_Position': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(809): note: 'cocos2d::kCCVertexAttrib_Position' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\titlescene.cpp(287): warning C4996: 'cocos2d::kCCVertexAttrib_Color': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(810): note: 'cocos2d::kCCVertexAttrib_Color' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\titlescene.cpp(288): warning C4996: 'cocos2d::kCCVertexAttrib_TexCoords': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\deprecated\ccdeprecated.h(811): note: 'cocos2d::kCCVertexAttrib_TexCoords' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\titlescene.cpp(286): warning C4996: 'cocos2d::GLProgram::addAttribute': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\renderer\ccglprogram.h(470): note: 'cocos2d::GLProgram::addAttribute' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\titlescene.cpp(287): warning C4996: 'cocos2d::GLProgram::addAttribute': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\renderer\ccglprogram.h(470): note: 'cocos2d::GLProgram::addAttribute' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\titlescene.cpp(288): warning C4996: 'cocos2d::GLProgram::addAttribute': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\renderer\ccglprogram.h(470): note: 'cocos2d::GLProgram::addAttribute' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\titlescene.cpp(292): warning C4996: 'cocos2d::Node::getShaderProgram': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\2d\ccnode.h(1034): note: 'cocos2d::Node::getShaderProgram' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\titlescene.cpp(296): warning C4996: 'cocos2d::Node::getShaderProgram': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\2d\ccnode.h(1034): note: 'cocos2d::Node::getShaderProgram' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\titlescene.cpp(308): warning C4800: 'float': 'true' 또는 'false'로 bool 값을 강제하고 있습니다(성능 경고).
+c:\cocos2d-x-3.9\rgame\classes\titlescene.cpp(312): warning C4800: 'float': 'true' 또는 'false'로 bool 값을 강제하고 있습니다(성능 경고).
+c:\cocos2d-x-3.9\rgame\classes\titlescene.cpp(308): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base\ccuserdefault.h(238): note: 'cocos2d::UserDefault::sharedUserDefault' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\titlescene.cpp(312): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base\ccuserdefault.h(238): note: 'cocos2d::UserDefault::sharedUserDefault' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\titlescene.cpp(319): warning C4996: 'cocos2d::Director::sharedDirector': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base\ccdirector.h(138): note: 'cocos2d::Director::sharedDirector' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\classes\titlescene.cpp(341): warning C4996: 'cocos2d::Director::sharedDirector': deprecated로 선언되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\cocos\base\ccdirector.h(138): note: 'cocos2d::Director::sharedDirector' 선언을 참조하십시오.
+AppDelegate.obj : warning LNK4075: '/EDITANDCONTINUE'이(가) '/SAFESEH' 사양으로 인해 무시됩니다.
+     C:\cocos2d-x-3.9\rgame\proj.win32\Debug.win32\rgame.lib 라이브러리 및 C:\cocos2d-x-3.9\rgame\proj.win32\Debug.win32\rgame.exp 개체를 생성하고 있습니다.
+  rgame.vcxproj -> C:\cocos2d-x-3.9\rgame\proj.win32\Debug.win32\rgame.exe
+  rgame.vcxproj -> C:\cocos2d-x-3.9\rgame\proj.win32\Debug.win32\rgame.pdb (Full PDB)
+  0개 파일이 복사되었습니다.

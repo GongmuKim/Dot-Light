@@ -1,0 +1,198 @@
+﻿  btAxisSweep3.cpp
+  btBroadphaseProxy.cpp
+  btCollisionAlgorithm.cpp
+  btDbvt.cpp
+  btDbvtBroadphase.cpp
+  btDispatcher.cpp
+  btMultiSapBroadphase.cpp
+  btOverlappingPairCache.cpp
+  btQuantizedBvh.cpp
+  btSimpleBroadphase.cpp
+  btActivatingCollisionAlgorithm.cpp
+  btBox2dBox2dCollisionAlgorithm.cpp
+  btBoxBoxCollisionAlgorithm.cpp
+  btBoxBoxDetector.cpp
+  btCollisionDispatcher.cpp
+  btCollisionObject.cpp
+  btCollisionWorld.cpp
+  btCompoundCollisionAlgorithm.cpp
+  btCompoundCompoundCollisionAlgorithm.cpp
+  btConvex2dConvex2dAlgorithm.cpp
+  btConvexConcaveCollisionAlgorithm.cpp
+  btConvexConvexAlgorithm.cpp
+  btConvexPlaneCollisionAlgorithm.cpp
+  btDefaultCollisionConfiguration.cpp
+  btEmptyCollisionAlgorithm.cpp
+c:\cocos2d-x-3.9\rgame\cocos2d\external\bullet\bulletcollision\gimpact\btgimpactshape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\BulletCollision\CollisionDispatch\btCollisionWorld.cpp)
+  btGhostObject.cpp
+  btHashedSimplePairCache.cpp
+  btInternalEdgeUtility.cpp
+  btManifoldResult.cpp
+  btSimulationIslandManager.cpp
+  btSphereBoxCollisionAlgorithm.cpp
+  btSphereSphereCollisionAlgorithm.cpp
+  btSphereTriangleCollisionAlgorithm.cpp
+  btUnionFind.cpp
+  SphereTriangleDetector.cpp
+  btBox2dShape.cpp
+  btBoxShape.cpp
+  btBvhTriangleMeshShape.cpp
+  btCapsuleShape.cpp
+  btCollisionShape.cpp
+  btCompoundShape.cpp
+  btConcaveShape.cpp
+  btConeShape.cpp
+  btConvex2dShape.cpp
+  btConvexHullShape.cpp
+  btConvexInternalShape.cpp
+  btConvexPointCloudShape.cpp
+  btConvexPolyhedron.cpp
+  btConvexShape.cpp
+  btConvexTriangleMeshShape.cpp
+  btCylinderShape.cpp
+  btEmptyShape.cpp
+  btHeightfieldTerrainShape.cpp
+  btMinkowskiSumShape.cpp
+  btMultimaterialTriangleMeshShape.cpp
+  btMultiSphereShape.cpp
+  btOptimizedBvh.cpp
+  btPolyhedralConvexShape.cpp
+  btScaledBvhTriangleMeshShape.cpp
+  btShapeHull.cpp
+  btSphereShape.cpp
+  btStaticPlaneShape.cpp
+  btStridingMeshInterface.cpp
+  btTetrahedronShape.cpp
+  btTriangleBuffer.cpp
+  btTriangleCallback.cpp
+  btTriangleIndexVertexArray.cpp
+  btTriangleIndexVertexMaterialArray.cpp
+  btTriangleMesh.cpp
+  btTriangleMeshShape.cpp
+  btUniformScalingShape.cpp
+  btContactProcessing.cpp
+  btGenericPoolAllocator.cpp
+  btGImpactBvh.cpp
+  btGImpactCollisionAlgorithm.cpp
+c:\cocos2d-x-3.9\rgame\cocos2d\external\bullet\bulletcollision\gimpact\btgimpactcollisionalgorithm.cpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  btGImpactQuantizedBvh.cpp
+  btGImpactShape.cpp
+  btTriangleShapeEx.cpp
+c:\cocos2d-x-3.9\rgame\cocos2d\external\bullet\bulletcollision\gimpact\btgimpactshape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\BulletCollision\Gimpact\btGImpactShape.cpp)
+  gim_box_set.cpp
+  gim_contact.cpp
+  gim_memory.cpp
+c:\cocos2d-x-3.9\rgame\cocos2d\external\bullet\bulletcollision\gimpact\btgimpactshape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\BulletCollision\Gimpact\btGImpactCollisionAlgorithm.cpp)
+  gim_tri_collision.cpp
+  btContinuousConvexCollision.cpp
+  btConvexCast.cpp
+  btGjkConvexCast.cpp
+  btGjkEpa2.cpp
+  btGjkEpaPenetrationDepthSolver.cpp
+  btGjkPairDetector.cpp
+  btMinkowskiPenetrationDepthSolver.cpp
+  btPersistentManifold.cpp
+  btPolyhedralContactClipping.cpp
+  btRaycastCallback.cpp
+  btSubSimplexConvexCast.cpp
+  btVoronoiSimplexSolver.cpp
+  btKinematicCharacterController.cpp
+  btConeTwistConstraint.cpp
+  btContactConstraint.cpp
+  btFixedConstraint.cpp
+  btGearConstraint.cpp
+  btGeneric6DofConstraint.cpp
+  btGeneric6DofSpringConstraint.cpp
+  btHinge2Constraint.cpp
+c:\cocos2d-x-3.9\rgame\cocos2d\external\bullet\bulletdynamics\constraintsolver\btconetwistconstraint.cpp(866): warning C4244: '=': 'double'에서 'btScalar'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\cocos2d-x-3.9\rgame\cocos2d\external\bullet\bulletdynamics\constraintsolver\btconetwistconstraint.cpp(911): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\cocos2d-x-3.9\rgame\cocos2d\external\bullet\bulletdynamics\constraintsolver\btconetwistconstraint.cpp(971): warning C4244: '=': 'double'에서 'btScalar'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\cocos2d-x-3.9\rgame\cocos2d\external\bullet\bulletdynamics\constraintsolver\btconetwistconstraint.cpp(973): warning C4244: '=': 'double'에서 'btScalar'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\cocos2d-x-3.9\rgame\cocos2d\external\bullet\bulletdynamics\constraintsolver\btcontactconstraint.h(25): warning C4359: 'btContactConstraint': 맞춤 지정자가 실제 맞춤(128)보다 작아 무시됩니다. (소스 파일 컴파일 중 ..\BulletDynamics\ConstraintSolver\btContactConstraint.cpp)
+  btHingeConstraint.cpp
+  btPoint2PointConstraint.cpp
+  btSequentialImpulseConstraintSolver.cpp
+c:\cocos2d-x-3.9\rgame\cocos2d\external\bullet\bulletdynamics\character\btkinematiccharactercontroller.cpp(137): warning C4305: '=': 'double'에서 'btScalar'(으)로 잘립니다.
+c:\cocos2d-x-3.9\rgame\cocos2d\external\bullet\bulletdynamics\character\btkinematiccharactercontroller.cpp(148): warning C4305: '=': 'double'에서 'btScalar'(으)로 잘립니다.
+  btSliderConstraint.cpp
+  btSolve2LinearConstraint.cpp
+  btTypedConstraint.cpp
+  btUniversalConstraint.cpp
+  btDiscreteDynamicsWorld.cpp
+  btRigidBody.cpp
+  btSimpleDynamicsWorld.cpp
+  Bullet-C-API.cpp
+  btMultiBody.cpp
+  btMultiBodyConstraint.cpp
+  btMultiBodyConstraintSolver.cpp
+  btMultiBodyDynamicsWorld.cpp
+c:\cocos2d-x-3.9\rgame\cocos2d\external\bullet\bulletdynamics\constraintsolver\btcontactconstraint.h(25): warning C4359: 'btContactConstraint': 맞춤 지정자가 실제 맞춤(128)보다 작아 무시됩니다. (소스 파일 컴파일 중 ..\BulletDynamics\Dynamics\btDiscreteDynamicsWorld.cpp)
+  btMultiBodyJointLimitConstraint.cpp
+  btMultiBodyJointMotor.cpp
+  btMultiBodyPoint2Point.cpp
+  btDantzigLCP.cpp
+  btMLCPSolver.cpp
+c:\cocos2d-x-3.9\rgame\cocos2d\external\bullet\bulletdynamics\mlcpsolvers\btdantziglcp.cpp(1567): warning C4473: 'printf': 서식 문자열에 대한 인수가 충분하게 전달되지 않았습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\external\bullet\bulletdynamics\mlcpsolvers\btdantziglcp.cpp(1567): note: 자리 표시자 및 해당 매개 변수에는 variadic 인수가 2개 필요하지만 1개가 제공되었습니다.
+  c:\cocos2d-x-3.9\rgame\cocos2d\external\bullet\bulletdynamics\mlcpsolvers\btdantziglcp.cpp(1567): note: 누락된 variadic 인수 2이(가) 서식 문자열 '% s'에 필요합니다.
+  btRaycastVehicle.cpp
+  btWheelInfo.cpp
+  btGpu3DGridBroadphase.cpp
+  btParallelConstraintSolver.cpp
+c:\cocos2d-x-3.9\rgame\cocos2d\external\bullet\bulletmultithreaded\btparallelconstraintsolver.cpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  btThreadSupportInterface.cpp
+  PosixThreadSupport.cpp
+  SequentialThreadSupport.cpp
+c:\cocos2d-x-3.9\rgame\cocos2d\external\bullet\bulletdynamics\constraintsolver\btcontactconstraint.h(25): warning C4359: 'btContactConstraint': 맞춤 지정자가 실제 맞춤(128)보다 작아 무시됩니다. (소스 파일 컴파일 중 ..\BulletDynamics\Vehicle\btRaycastVehicle.cpp)
+  SpuCollisionObjectWrapper.cpp
+  SpuCollisionTaskProcess.cpp
+  SpuContactManifoldCollisionAlgorithm.cpp
+  SpuFakeDma.cpp
+  SpuGatheringCollisionDispatcher.cpp
+c:\cocos2d-x-3.9\rgame\cocos2d\external\bullet\bulletmultithreaded\btparallelconstraintsolver.cpp(1141): warning C4316: 'btConstraintSolverIO': 힙에 할당된 개체가 16에 맞추어져 있지 않을 수도 있습니다
+  SpuLibspe2Support.cpp
+c:\cocos2d-x-3.9\rgame\cocos2d\external\bullet\bulletmultithreaded\btparallelconstraintsolver.cpp(1484): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
+  boxBoxDistance.cpp
+c:\cocos2d-x-3.9\rgame\cocos2d\external\bullet\bulletmultithreaded\sequentialthreadsupport.cpp(180): warning C4316: 'btDummyCriticalSection': 힙에 할당된 개체가 16에 맞추어져 있지 않을 수도 있습니다
+  SpuCollisionShapes.cpp
+  SpuContactResult.cpp
+  SpuGatheringCollisionTask.cpp
+  SpuMinkowskiPenetrationDepthSolver.cpp
+  SpuSampleTaskProcess.cpp
+  SpuSampleTask.cpp
+  Win32ThreadSupport.cpp
+  btAlignedAllocator.cpp
+c:\cocos2d-x-3.9\rgame\cocos2d\external\bullet\bulletmultithreaded\spusampletask\spusampletask.cpp(226): warning C4316: 'SampleTask_LocalStoreMemory': 힙에 할당된 개체가 16에 맞추어져 있지 않을 수도 있습니다
+  btConvexHull.cpp
+  btConvexHullComputer.cpp
+  btGeometryUtil.cpp
+c:\cocos2d-x-3.9\rgame\cocos2d\external\bullet\bulletmultithreaded\spunarrowphasecollisiontask\spugatheringcollisiontask.cpp(130): warning C4359: 'CollisionTask_LocalStoreMemory': 맞춤 지정자가 실제 맞춤(128)보다 작아 무시됩니다.
+  btPolarDecomposition.cpp
+c:\cocos2d-x-3.9\rgame\cocos2d\external\bullet\bulletmultithreaded\win32threadsupport.cpp(253): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1769): note: 'sprintf' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\cocos2d\external\bullet\bulletmultithreaded\win32threadsupport.cpp(262): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1769): note: 'sprintf' 선언을 참조하십시오.
+  btQuickprof.cpp
+  btSerializer.cpp
+  btVector3.cpp
+  MiniCL.cpp
+  MiniCLTaskScheduler.cpp
+  MiniCLTask.cpp
+c:\cocos2d-x-3.9\rgame\cocos2d\external\bullet\minicl\minicl.cpp(83): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: 'strcpy' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\cocos2d\external\bullet\minicl\minicl.cpp(96): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: 'strcpy' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\cocos2d\external\bullet\minicl\minicl.cpp(129): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1769): note: 'sprintf' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\cocos2d\external\bullet\minicl\minicl.cpp(194): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: 'strcpy' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\cocos2d\external\bullet\minicl\minicl.cpp(207): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: 'strcpy' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\cocos2d\external\bullet\minicl\minicl.cpp(166): warning C4101: 'workitem_size' :참조되지 않은 지역 변수입니다.
+c:\cocos2d-x-3.9\rgame\cocos2d\external\bullet\minicl\minicl.cpp(547): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: 'strcpy' 선언을 참조하십시오.
+c:\cocos2d-x-3.9\rgame\cocos2d\external\bullet\minicl\minicl.cpp(640): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1769): note: 'sprintf' 선언을 참조하십시오.
+PosixThreadSupport.obj : warning LNK4221: 이 개체 파일은 이전에 정의되지 않은 공용 기호를 정의하지 않으므로 이 라이브러리를 사용하는 어떠한 링크 작업에도 사용되지 않습니다.
+btBroadphaseProxy.obj : warning LNK4221: 이 개체 파일은 이전에 정의되지 않은 공용 기호를 정의하지 않으므로 이 라이브러리를 사용하는 어떠한 링크 작업에도 사용되지 않습니다.
+  libbullet.vcxproj -> C:\cocos2d-x-3.9\rgame\proj.win32\Debug.win32\libbullet.lib
